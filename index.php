@@ -27,7 +27,7 @@
             </div>
         </div>
         <div style="float: left; width: 40%">
-            <div style="padding: 2em 3em; background-color: #ff6600; color: #fff">
+            <div style="padding: 2em 3em; background-color: #b16e4b; color: #fff; border-radius: 10px;">
                 <h2>AryaLinux 2.0 is out.</h2>
                 <p>
                     AryaLinux 2.0 was released with updates for a lot of packages, a new kernel, a completely rewritten alps packaging tool and whole new package management features.

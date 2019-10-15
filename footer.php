@@ -37,6 +37,9 @@
                     <td valign="top">
                         <a href="#" class="fa fa-facebook"></a>
                         <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <p>Upvote us on <a href="www.distrowatch.com/arya">Distrowatch</a>.</p>
                     </td>
                 </tr>
             </table>

@@ -21,6 +21,7 @@ body {
 .bg-dark1 {
     background-color: #3d3d3d;
     color: #fff;
+    border-bottom: 5px solid #ff6600;
 }
 
 .main-menu a {
@@ -87,13 +88,56 @@ hr.thin {
 
 .author {
     font-weight: bold;
-    color: #00cc80;
+    color: #89aeb2;
+    font-size: 85%;
 }
 
 .news-snips li {
     margin-bottom: 2em;
 }
 
-.fa-facebook, .fa-twitter {
-    font-size: 30px;
-}
+ /* Style all font awesome icons */
+ .fa {
+    padding: 15px;
+    font-size: 25px !important;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+
+  } 
+
+  /* Youtube */
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  } 
+
+  /* Linkedin */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  } 
+
+  .bg-dark1 a {
+      font-size: 0.85em;
+  }
