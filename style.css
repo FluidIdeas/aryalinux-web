@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 
 * {
-    font-family: 'Open Sans', 'sans-serif'
+    font-family: 'Titillium Web', 'sans-serif'
 }
 
 body {
@@ -22,6 +22,16 @@ body {
     background-color: #3d3d3d;
     color: #fff;
     border-bottom: 5px solid #ff6600;
+}
+
+.heading {
+    font-family: 'Titillium Web', 'sans-serif';
+    font-size: 2.5em;
+    padding: 20px 0;
+}
+
+h1, h3, h2 {
+    font-weight: normal;
 }
 
 .main-menu a {
