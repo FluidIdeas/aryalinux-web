@@ -5,7 +5,7 @@
         "index.php"=>"Home",
         "downloads.php"=>"Downloads",
         "about.php"=>"About AryaLinux",
-        "support.php"=>"Documentation",
+        "docs.php"=>"Documentation",
         "contact.php"=>"Contact Us",
         "blog.php"=>"Blog"
     );
