@@ -15,7 +15,7 @@
     <?php include_once('logo.php')?>
     <?php include_once('main-menu.php')?>
     <div class="container">
-	<h1>Documentation</h1>
+	<h2>Documentation</h2>
 	<div style="float: left; width: 50%">		
 		<div style="padding: 0 0 20px 20px">
 			<h3>Articles</h3>

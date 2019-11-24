@@ -17,7 +17,7 @@
     <div class="container" style="margin: 2em auto">
         <div style="float: left; width: 60%">
             <div style="padding: 2em 2em 2em 0">
-                <h1>Welcome to AryaLinux</h1>
+                <h2>Welcome to AryaLinux</h2>
                 <p>
                     AryaLinux is a GNU/Linux system built from source. It provides a customizable, clean, intuitve and safe computing environment. Arya, comes pre-loaded with
                     lots of applications for day-to-day usage like media players, browsers and office productivity suite. Arya is fast and secure and brings the best of the Linux
@@ -32,7 +32,7 @@
                 <p>
                     AryaLinux 2.0 was released with updates for a lot of packages, a new kernel, a completely rewritten alps packaging tool and whole new package management features.
                 </p>
-                <p>Read the release notes <a href="#">here</a>.</p>
+                <p>Read the release notes <a href="release-notes-2.0.php">here</a>.</p>
                 <p><a href="#" class="download-button">Download Now</a></p>
             </div>
         </div>
@@ -42,6 +42,14 @@
     <div class="container">
         <div style="padding: 2em 0">
             <ul style="list-style-type: none; margin: 0px; padding: 0px; border: 0px;" class="news-snips">
+                <li>
+                    <div class="datetime">November 24, 2019</div>
+                    <div class="author">Administrator</div>
+                    <p>
+                        Release 2.0 would be shipping with support for flatpak out of the box. This would help users install applications from flathub with ease.
+                        The AryaLinux Software Center is a frontend to flathub that would enable users install/uninstall/update apps with ease.
+                    </p>
+                </li>
                 <li>
                     <div class="datetime">October 15, 2019</div>
                     <div class="author">Administrator</div>

@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cambay:700|Exo+2:700|Kanit:700|Oxygen:700|Play:700|Signika+Negative:700|Zilla+Slab+Highlight&display=swap');
 
 * {
-    font-family: 'Noto Sans', 'sans-serif'
+    font-family: 'Open Sans', 'sans-serif'
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Zilla Slab', 'sans-serif';
+}
+
+.heading {
+    font-family: 'Zilla Slab', 'sans-serif';
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 2.5em;
 }
 
 body {
@@ -25,14 +38,8 @@ body {
     border-bottom: 5px solid #ff6600;
 }
 
-.heading {
-    font-family: 'Titillium Web', 'sans-serif';
-    font-size: 2.5em;
-    padding: 20px 0;
-}
-
-h1, h3, h2 {
-    font-weight: normal;
+.heading .other {
+    color: #ff0000;
 }
 
 .main-menu a {
