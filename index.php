@@ -31,7 +31,7 @@
                     <br>
                     <a href="#" class="download-btn">Download AryaLinux 2.1 Gnome</a>
                     <br><br>
-                    <a href="#">Release Notes</a>
+                    <a href="release-notes-2.1.php">Release Notes</a>
                     <br><br>
                     <a href="downloads.php">Other Downloads</a>
                 </div>

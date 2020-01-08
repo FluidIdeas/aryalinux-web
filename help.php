@@ -1,11 +1,12 @@
 <?php
 $articles = array(
     "vbox-vmware",
-    "nvidia-driver",
+    "livemedia",
     "installing",
     "building",
     "apps",
-    "remastering"
+    "remastering",
+    "lampstack"
 );
 ?>
 <!doctype html>
@@ -42,10 +43,10 @@ $articles = array(
         <h2>Help</h2>
         <div style="display: grid; grid-template-columns: 1fr 1fr">
             <div>
-                <h3>Help Articles</h3>
+                <h3>General</h3>
                 <ul>
+                    <li><a href="?article=livemedia">How to create AryaLinux Bootable USB Drive</a></li>
                     <li><a href="?article=vbox-vmware">Running AryaLinux inside Virtualbox/VMWare</a></li>
-                    <li><a href="?article=nvidia-driver">AryaLinux on NVidia Graphics Cards</a></li>
                     <li><a href="?article=apps">Installing applications/packages</a></li>
                     <li><a href="?article=installing">Installing Aryalinux</a></li>
                     <li><a href="?article=remastering">Remastering Aryalinux</a></li>
@@ -53,12 +54,10 @@ $articles = array(
                 </ul>
             </div>
             <div>
-                <!--<h3>Troubleshooting</h3>
+                <h3>Applications</h3>
                 <ul>
-                    <li><a href="?article=boot">Boot Issues</a></li>
-                    <li><a href="?articles=install_issues">Issues installing packages</a></li>
-                    <li><a href="?articles=virtual_issues">VMWare and VirtualBox</a></li>
-                </ul>-->
+                    <li><a href="?article=lampstack">How to install lamp stack</a></li>
+                </ul>
             </div>
         </div>
         <?php } else { ?>

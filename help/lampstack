@@ -1,0 +1,65 @@
+<a name="top"></a>
+<h3>How to install lamp stack</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Introduction</a></li>
+<li><a href="#2">Installation commands</a></li>
+<li><a href="#3">Configuration/Use</a></li>
+</ol>
+<a name="1"></a>
+<h4>Introduction</h4>
+<p>
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Installation commands</h4>
+<p>
+The Lamp Stack is a combination of Apache httpd server, MySQL database
+and php language. The lamp stack is usually used by web developers to
+build web applications, websites and portals using PHP language and MySQL
+as backend database. Installing the lamp stack involves installing all
+of the above components. MariaDB is an open source fork of MySQL database
+and can be used as a drop-in replacement of mysql. MariaDB is what is
+supported in AryaLinux.
+</p>
+<p>
+Use the following command to install the lamp stack.
+</p>
+<pre>
+alps install php apache mariadb
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Configuration/Use</h4>
+<p>
+Once installed, there is very little configuration you have to actually do to
+make the lamp stack work. Here are few things you need to keep in mind:
+</p>
+<ul>
+<li>Owing to its similarity to BLFS, the root directory in AryaLinux is
+/srv/www instead of /var/www/html like in most distros.
+</li>
+<li>
+Once the installation process completes, look for LoadModule php7_module in
+/etc/httpd/httpd.conf and make sure that the line does not start with a # symbol.
+Once the change is made save the file.
+</li>
+<li>
+Search for DirectoryIndex index.html in /etc/httpd/httpd.conf and change that
+to DirectoryIndex index.php index.html. Once again once the change is made save
+the file.
+</li>
+</ul>
+<pre>
+sudo sed -i 's@DirectoryIndex index.html@DirectoryIndex index.php index.html@g' \
+/etc/httpd/httpd.conf
+</pre>
+<ul>
+<li>
+Run the following command to give a root password for mariadb.
+</li>
+</ul>
+<pre>
+mysql_secure_installation
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>

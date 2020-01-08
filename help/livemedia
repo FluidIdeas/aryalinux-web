@@ -1,0 +1,33 @@
+<a name="top"></a>
+<h3>How to create AryaLinux Bootable USB Drive</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Create bootable USB in Windows</a></li>
+<li><a href="#2">Create bootable USB in Linux</a></li>
+</ol>
+<a name="1"></a>
+<h4>Create bootable USB in Windows</h4>
+<p>
+Download <a href="https://github.com/unetbootin/unetbootin/releases/download/675/unetbootin-windows-675.exe">unetbootin</a>
+and run the downloaded exe file. Follow the following link that outlines
+the process of writing the downloaded ISO onto the USB Device:<br>
+<a href="https://unetbootin.github.io/#install">https://unetbootin.github.io/#install</a>
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Create bootable USB in Linux</h4>
+<p>
+You can download unetbootin in Linux as well to create a bootable Live USB.
+You can also use the dd command to create a bootable USB. The dd command usage
+is listed below. Please make sure that you replace <u>/dev/sdx</u> with the USB
+device name and provide appropriate path for AryaLinux's ISO file.
+</p>
+<pre>
+sudo dd if=/path/to/aryalinux/live.iso of=/dev/sdx status=progress oflag=sync bs=10M
+</pre>
+<p>
+Please make sure you pass the device name and not the partition name instead of <u>/dev/sdx</u>
+else it would not work. Device names usually end in letters like /dev/sdc or /dev/sdd and
+partition names end with a number like /dev/sdc1 or /dev/sdd2.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

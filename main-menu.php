@@ -3,6 +3,7 @@ $menu_options = array(
     "index.php" => "Home",
     "downloads.php" => "Downloads",
     "about.php" => "About AryaLinux",
+    "contact.php" => "Contact Us",
     "help.php" => "Help and Support",
     "documentation.php" => "Documentation"
 );

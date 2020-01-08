@@ -15,8 +15,8 @@
 </div>
 <div>
     <h4>Latest Articles</h4>
-    <a href="#">Running AryaLinux inside Virtualbox/VMWare</a><br>
-    <a href="#">AryaLinux on NVidia Graphics Cards</a><br>
+    <a href="help.php?article=vbox-vmware">Running AryaLinux inside Virtualbox/VMWare</a><br>
+    <a href="help.php?article=livemedia">How to create AryaLinux Bootable USB Drive</a><br>
 </div>
 <div style="text-align: justify">
     <br>

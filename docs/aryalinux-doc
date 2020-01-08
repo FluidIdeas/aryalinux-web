@@ -37,7 +37,7 @@ everyone does and needs advanced knowledge of GNU/Linux Operating Systems.
 <p>
 AryaLinux is installed via the Live ISO which can be downloaded from the <a href="downloads.php">download section</a>
 of our website. Once downloaded the ISO can be burned onto a DVD or written onto a pen drive. The Live ISO is hybrid
-and hence can be written onto pen drives using a simple dd command. Read <a href="?article=installation">this</a> to
+and hence can be written onto pen drives using a simple dd command. Read <a href="help.php?article=livemedia">this</a> to
 learn more about building a bootable installation media.
 </p>
 <p>
