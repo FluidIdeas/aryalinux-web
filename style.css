@@ -198,3 +198,19 @@ li {
     padding: 0px;
     border: 0px;
 }
+
+.head {
+    background-color: #1b140e;
+    color: #fff;
+    padding: 10px;
+}
+
+.odd {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+.even {
+    background-color: darkgray;
+    padding: 10px;
+}
