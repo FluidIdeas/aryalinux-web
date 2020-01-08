@@ -1,0 +1,137 @@
+<a name="top"></a>
+<h3>Remastering AryaLinux</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Introduction</a></li>
+<li><a href="#2">Downloading the base tarball for remastering</a></li>
+<li><a href="#3">Getting the build tools</a></li>
+<li><a href="#4">Restoring backup, chrooting and installing applications</a></li>
+<li><a href="#5">Building the ISO</a></li>
+</ol>
+<a name="1"></a>
+<h4>Introduction</h4>
+<p>
+Remastering is the process of building your own Linux system by modifiying
+some other Linux and you can remaster AryaLinux as well to create your own
+system. Since applications cannot be uninstalled from AryaLinux, we provide
+slim backups of AryaLinux on top which customizations can be done and packages
+installed and remastering can be done.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Downloading the base tarball for remastering</h4>
+<p>
+You can download base tarballs from the <a href="downloads.php">download section</a>.
+You can download the following base tarballs:
+</p>
+<ul>
+<li>
+Base System: The base system is the most mimimal version of AryaLinux. The base system
+backup is a backup of AryaLinux root filesystem without X-Server and Desktop Enironment.
+</li>
+<li>
+Base System with X-Server: This backup has X-Server on top of the base system. One can
+use this backup to install any desktop environment on top of the X-Server. Sometimes
+even the slimmest desktop environments can be heavy for the needs of some users. For
+building such systems this backup can be used.
+</li>
+<li>
+Base system with desktop environment: If you do not want the applications we ship with
+AryaLinux, then you can use this backup and install the applications of your choice
+on top of it. This backup just contains the dekstop environment and very few applications.
+</li>
+</ul>
+<p>
+All the above backups have alps installed so that you can install the application of your
+choice on it.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Getting the build tools</h4>
+<p>
+Once you download the backup tarball, you need to download the build tools. You can clone
+the build tools repository by running the following command from the terminal. Please run
+the command as a root user so that you have sufficient permissions to remaster.
+</p>
+<pre>
+sudo su
+git clone https://bitbucket.org/chandrakantsingh/aryalinux
+cd aryalinux/base-system
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="4"></a>
+<h4>Restoring backup, chrooting and installing applications</h4>
+<p>
+You need to have an empty partition of size at least 20GB to restore the backup. Though
+AryaLinux gets installed in much smaller partitions, the extra space would be used to
+download and build packages. The partition should be formatted using ext4 filesystem.
+Run the following commands to prepare the target partition:
+</p>
+<pre>
+mkfs.ext4 /dev/sdxx
+</pre>
+<p>
+In the above command, please replace <b>sdxx</b> with the partition which you want to
+format. Now mount the partition and restore the backup.
+</p>
+<pre>
+mkdir -pv /mnt/lfs
+mount /dev/sdxx /mnt/lfs
+sudo tar xf /path/to/the/backup/tarball -C /
+</pre>
+<p>
+This would extract the tarball into the /mnt/lfs directory where the target partition is
+extracted. Once the tarball is extracted, you can chroot into the target partition by
+running the following commands. Before chrooting however some preparation needs to be done.
+Please substitue /dev/sdxx with the target partition. Run the following commands to prepare
+the target system and chroot into it:
+</p>
+<pre>
+mkdir /mnt/lfs/sources
+ln -svf /mnt/lfs/sources /sources
+cat &gt; build-properties&lt;&lt;EOF
+LFS=/mnt/lfs
+ROOT_PART=/dev/sdxx
+EOF
+cp -r * /sources/
+cp -v build-properties /sources/
+pushd /sources
+wget http://aryalinux.info/files/build-log
+echo 7 &gt; currentstage
+popd
+</pre>
+<p>
+Now you can chroot into restored AryaLinux so that you can customize the rest of the system.
+</p>
+<pre>
+./enteral.sh
+</pre>
+<p>
+Now you can install applications using alps and make changes in the chrooted system. Once the
+changes are made you can exit out of the chrooted system by entering the exit command till you
+are back to the base-system directory. Once you are back to the base-system directory, you can
+either build a live ISO out of it or you can add an option to grub to show this new system in
+the boot menu. Run the following command to build an ISO:
+</p>
+<pre>
+cat &gt;&gt; build-properties &lt;&lt;EOF
+INSTALL_BOOTLOADER=n
+CREATE_LIVE_ISO=y
+EOF
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="5"></a>
+<h4>Building the ISO</h4>
+<p>
+Run the following command to start the ISO building process.
+</p>
+<pre>
+./build-arya
+</pre>
+<p>
+You would be prompted if you want to start from the beginning or resume build. Enter 2 as option.
+Then you would be prompted to enter the name of the partition where build is being done. Enter
+/dev/sdxx in response. Please change <b>/dev/sdxx</b> to the name of the partition where you
+restored the system.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

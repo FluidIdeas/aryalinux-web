@@ -1,48 +1,28 @@
-<div class="footer">
-    <div class="bg-dark">
-        <div class="container" style="height: 3.5em; line-height: 3.5em;">
-            (C) 2019, aryalinux.info, All Rights Reserved.
-        </div>
-    </div>
-    <div class="bg-dark1">
-        <div class="container" style="padding: 2em; 0em;">
-            <table width="100%">
-                <tr>
-                    <td valign="top">
-                        <h3>Site Navigation</h3>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Downloads</a></li>
-                            <li><a href="#">About AryaLinux</a></li>
-                            <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Support</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Blog</a></li>
-                        </ul>
-                    </td>
-                    <td valign="top">
-                        <h3>Latest Articles</h3>
-                        <ul>
-                            <li><a href="#">Installing LAMP stack on AryaLinux 2.0</a></li>
-                            <li><a href="#">How to install Java development stack in AryaLinux 2.0</a></li>
-                            <li><a href="#">Changing the layout in Aryalinux 2.0 to match Windows</a></li>
-                            <li><a href="#">Installing binary packages in AryaLinux 2.0</a></li>
-                            <li><a href="#">Firewall configuration</a></li>
-                            <li><a href="#">Installing NVidia graphics drivers</a></li>
-                            <li><a href="#">AryaLinux building from source</a></li>
-                            <li><a href="#">Installing AryaLinux 2.0</a></li>
-                            <li><a href="#">How to create a Live ISO image from my AryaLinux installation.</a></li>
-                        </ul>
-                    </td>
-                    <td valign="top">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
-                        <p>Upvote us on <a href="www.distrowatch.com/arya">Distrowatch</a>.</p>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
+<div class="footer-container1">
+<div class="container">
+(C) 2020, aryalinux.info. All Rights Reserved
+</div>
+</div>
+<div class="footer-container2">
+<div class="container">
+<div>
+    <h4>Links</h4>
+    <a href="index.php">Home</a><br>
+    <a href="about.php">About AryaLinux</a><br>
+    <a href="contributing.php">Contributing</a><br>
+    <a href="help.php">Help &amp; Support</a><br>
+    <a href="documentation.php">Documentation</a><br>
+</div>
+<div>
+    <h4>Latest Articles</h4>
+    <a href="#">Running AryaLinux inside Virtualbox/VMWare</a><br>
+    <a href="#">AryaLinux on NVidia Graphics Cards</a><br>
+</div>
+<div style="text-align: justify">
+    <br>
+    LFS and BLFS are intellectual properties of <a href="http://linuxfromscratch.org">http://linuxfromscratch.org</a>.
+    AryaLinux is released under the GNU General Public License v3.0. All software packaged with AryaLinux is available publicly and AryaLinux scripts and other tools can be downloaded from out <a href="https://bitbucket.org/chandrakantsingh/aryalinux">bitbucket repository</a>.
+</div>
+</div>
+<br>
 </div>

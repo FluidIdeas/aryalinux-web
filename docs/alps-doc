@@ -1,0 +1,106 @@
+<a name="top"></a>
+<h3>alps (AryaLinux Packaging System) Documentation</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Introduction</a></li>
+<li><a href="#2">alps Components</a></li>
+<li><a href="#3">Adding new build scripts to repository</a></li>
+<li><a href="#4">Installing applications not in repository</a></li>
+</ol>
+<a name="1"></a>
+<h4>Introduction</h4>
+<p>
+Alps is the package management tool in AryaLinux. alps can be used to install
+packages as of now(Work is in progress to add the update functionality in
+AryaLinux). Alps comes installed by default even in the minimalistic install of
+AryaLinux. Alps is not a package manager but provides a package manager kind of
+interface to install and update applications. Alps is not similar to or compatible
+with any other package manager for a different distribution.
+</p>
+<p>
+An integral part of alps is the application build scripts. These are bash scripts
+which have commands needed to download, build and install the packages from their source
+tarballs or git repository. Build scripts also contain other information like dependencies
+and package name and section. This information is used by alps to prepare a dependency
+chain when a package needs to be installed. Before installing any package in Linux, its
+dependencies need to be installed. Usually figuring out these dependencies and building
+them in the right order before installing the application in question is a very tedious
+process if one intends to install the application from its source. Alps simplifies this
+process by doing depenedency resolution and dependency chain building before installing
+any application.
+</p>
+<p>
+As of now alps does dependency resolution manually. We intend to automate this process
+in the time to come.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>alps Components</h4>
+<p>
+The components of alps are listed below:
+</p>
+<ul>
+<li>
+<b>The alps tool</b>: The core of alps is the alps tool. It is a tool written in python3.
+The alps script refers to other functions defined in /var/lib/alps. Also present in /var/lib/alps
+are bash scripts that are called by the python code to carry out certain operations like installing
+from URL or source tarballs or from the downloaded tarballs of packages.
+</li>
+<li>
+<b>Configuration</b>: The configuration for alps is present in /etc/alps/alps.conf. This file
+defines path of the various directories where the source code would be downloaded and where
+the build process would take place. The configuration file also defines the name of the file
+where the list of installed packages and their versions are listed. The list of installed packages
+along with the time of install are present in /etc/alps/installed-list and the versions of
+installed packages is present in /etc/alps/versions. The AUTOCLEAN option in the configuration
+file if set to true would instruct alps to delete the source tarballs once the installation
+is done. Last but definitely not the least, the configuration file also lists the REPO_VERSION.
+This is the branch in bitbucket from which the build scripts would be downloaded. Normally
+a branch in bitbucket refers to a release. Sometimes these releases are made public and Sometimes
+they are not. A process of updating AryaLinux using alps would involve simply changing this version
+to a more latest number and then instructing alps to build everything from that version of
+repository.
+</li>
+<li>
+<b>Build scripts</b>: Build scripts are bash scripts that have the commands needed to download,
+build and install a given package. These build scripts are stored in an online repository in
+bitbucket and are constantly updated to included the latest versions of packages and new packages.
+Build scripts are stored in /var/cache/alps/scripts directory. The build scripts also define the
+dependencies(lines that start with #DEP:). The build scripts in the end make an entry in the
+installed-list file and versions file.
+</li>
+</ul>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Adding new build scripts to repository</h4>
+<p>
+The path to AryaLinux online repository is <a href="https://bitbucket.org/chandrakantsingh/aryalinux/src/master/applications/">https://bitbucket.org/chandrakantsingh/aryalinux/src/master/applications/</a>.
+So if you come up with build scripts for a given application, please clone the repository mentioned above, put the build scripts
+in the applications directory and raise a merge request and we would review it and add it to the respoitory.
+</a>
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="4"></a>
+<h4>Installing applications not in repository</h4>
+<p>
+If the application you want to install cannot be installed using alps, you can still use alps to install the package.
+There are two ways of doing it. You may search over the internet for the source code of the application. Usually source
+code of applications are distributed as source tar.gz or tar.xz or tar.bz2 files. If you have the URL of any such
+package you can run the following command to install the package:
+</p>
+<pre>
+alps urlinstall url_of_the_tar_file
+</pre>
+<p>
+You may also go ahead and download the file and give the path to the file to alps and alps would build and install the package.
+Use the following command to install downloaded source tarball.
+</p>
+<pre>
+alps srcinstall /path/to/the/downloaded/file
+</pre>
+<p>
+Sometimes source code for applications are not released. In such cases, alps would not be able to install the package. Also
+some packages have exotic build/install mechanisms not understood by alps. We would request you to mail us if you find one
+such package and we would try figuring out how it can be installed.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

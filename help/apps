@@ -1,0 +1,68 @@
+<a name="top"></a>
+<h3>Installing applications/packages</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Using alps for app/package installation</a></li>
+<li><a href="#2">Installing applications using flatpak</a></li>
+<li><a href="#3">Installing packages using docker</a></li>
+</ol>
+<a name="1"></a>
+<h4>Using alps for app/package installation</h4>
+<p>
+If an application is present in AryaLinux repositories, then it can be installed using
+alps. Alps downloads source code in the form of tar archives or by cloning git repositories,
+builds and installs the package. Before installing any package, alps figures out the
+dependencies of the package and the dependencies of the dependencies till it builds a
+complete dependency chain. Then all the packages in the dependency chain are installed
+in the right order.
+</p>
+<p>
+The following command is used to install packages using alps:
+</p>
+<pre>
+alps install package_name
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Installing applications using flatpak</h4>
+<p>
+If an application is not present in AryaLinux repositories then one can see if its is
+present in Flathub and install if present. Flatpak itself can be installed using the
+following command:
+</p>
+<pre>
+alps install flatpak
+</pre>
+<p>
+Packages in the Flathub are identified by their IDs. You can access Flathub using the
+browser and search for the application and alongwith other details of the package, ID
+would also be displayed in Flathub. Once you have ID for a Flatpak application you can
+run the following command:
+</p>
+<pre>
+flatpak install org.libreoffice.LibreOffice
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Installing packages using docker</h4>
+<p>
+Docker is a tool designed to make it easier to create, deploy, and run applications by
+using containers. Using docker containers one can install a wide varierty of applications
+ranging from programming languages to platforms to tools and server applications and
+minimal OS images. You can see the whole list of applications present in docker by visiting
+the <a href="https://hub.docker.com/">Docker Hub</a>. Docker can be installed using the
+following alps command:
+</p>
+<pre>
+alps install docker
+</pre>
+<p>
+One thing to keep in mind is that similar to few other applications in AryaLinux,
+docker is installed by downloading docker binary files and not built from source
+code.
+</p>
+<p>
+The <a href="https://www.tecmint.com/install-run-and-delete-applications-inside-docker-containers/">
+following Techmint article</a> is a good guide on how to use docker.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

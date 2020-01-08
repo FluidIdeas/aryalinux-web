@@ -1,0 +1,184 @@
+<a name="top"></a>
+<h3>Building AryaLinux from scratch</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Introduction</a></li>
+<li><a href="#2">Prerequisites</a></li>
+<li><a href="#3">Downloading build scripts and starting build</a></li>
+<li><a href="#4">Final output</a></li>
+<li><a href="#5">Issues</a></li>
+</ol>
+<a name="1"></a>
+<h4>Introduction</h4>
+<p>
+AryaLinux is a GNU/Linux system that is built from source. The various source
+tarballs are downloaded and built and installed in an empty partition to
+in a pre-defined sequence to incrementally build the final system. Anyone can
+build the entire system from scratch by following the instructions presented
+below. This process can be used to generate a GNU/Linux distribution similar
+to AryaLinux. Please note that the process of building the entire system is
+very resource intensive and would require massive amount of computing power,
+few gigs of data to be downloaded from the internet and anything ranging from
+a few hours to a few days for the build process to complete. So having a
+system with sufficient power and a fast internet connection is the key to
+a successful build.
+</p>
+<p>
+The whole process is automated so you might not learn a lot about the whole
+process because most of the time its the system that would be doing the job
+with very little intervention from your side unless an error occurs. Also
+this process is not meant for advanced users and if you have the slightest
+doubt about what is happening please do not attempt because a failed build
+may result in a dead system or might put strain on your hardware as well.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Prerequisites</h4>
+<p>
+The best way to build AryaLinux is using the AryaLinux Live ISO but you can
+also use an existing Linux distribution to do the same. The only impediment
+would be few pre-requisites that the system has to meet before the build
+process can start. Please take a look at the <a href="http://www.linuxfromscratch.org/lfs/view/systemd/chapter02/hostreqs.html">following page</a>
+to learn more about the pre-requisites. Once you are done installing the
+required tools and software in the host system, you can get started with the
+build process. Please note that the AryaLinux Live ISO has all the prerequisites
+pre-installed. So its the easiest way to build. If you are using AryaLinux
+live ISO, then please prepare a Live Media out of the downloaded ISO
+and boot into it.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Downloading build scripts and starting build</h4>
+<p>
+At this point it is assumed that you have either boot into the AryaLinux Live
+Media or have installed all the required software in your Linux distribution
+by following the link mentioned above. Go ahead and enter the commands given
+below to get started:
+</p>
+<pre>
+sudo su
+cd ~
+git clone https://bitbucket.org/chandrakantsingh/aryaLinux
+cd aryalinux/base-system
+./download-sources.sh && ./additional-downloads.sh
+./build-arya
+</pre>
+<p>
+This would download the required files into the /root/sources and then ask you
+a series of questions after which the build process would start. Here are the
+questions you would be asked with their significance:
+</p>
+<ul>
+<li>
+Bootloader Device: The bootloader device is the device which has the partition
+where you would like to build your system. For instance if you want your final
+system to be present on /dev/sda10 then /dev/sda is the device name.
+</li>
+<li>
+Root Partition: The root partition is the name of the partition where you want
+the newly built system to exist. The root partition is the only mandatory
+partition whose name is required for a successful install. You need to make sure
+that this partition exists before the build process starts. In case you dont have
+this partition, please go ahead and use fdisk to create the partition before
+starting the installation once again.
+</li>
+<li>
+Home Partition: The partition that would be mounted on /home. This is not mandatory
+and if you are entering a value here, it must be different from the root partition.
+If you are'nt sure simply press enter.
+</li>
+<li>
+Format Home Partition: If you have'nt given a home partition name then enter n for this
+option and if you have given a home partition then enter y or n depending on whether
+you want the partition to be formatted. If you are'nt sure enter n.
+</li>
+<li>
+Swap Partition: If your system has RAM less than 2GB then you need to have a swap partition
+of size twice that of your RAM. Mention the swap partition's name here. If unsure press
+enter
+</li>
+<li>
+Locale: Enter your locale. For example de_DE.utf8 for german or fr_FR.utf8 for french.
+</li>
+<li>
+OS Name: Enter any name for your OS. If unsure press enter. The resulting OS would be named
+AryaLinux
+</li>
+<li>
+OS Version: Enter 2.1 here.
+</li>
+<li>
+Domain Name: Enter your domain name here. If unsure press enter.
+</li>
+<li>
+Keyboard Layout: Enter the keyboard layout here. For example us for US-English or fr for French.
+</li>
+<li>
+Printer Paper Size: A4 or Letter. Press enter if unsure.
+</li>
+<li>
+Enter full name: Enter the full name of the default user. Press enter if unsure. If you press enter
+the default user would be aryalinux.
+</li>
+<li>
+Username: Enter the username for the default user. If unsure press enter. the resulting user would be
+aryalinux.
+</li>
+<li>
+Computer name: The name of the system. Press enter if unsure.
+</li>
+<li>
+Use multiple cores for build: Enter y or n here. Its best to answer y here if you have a powerful
+system and can take the build strain. Else enter n here.
+</li>
+<li>
+Create backups: If you have given a sufficiently large partition for doing builds, then you may
+enter y here. The system would be backed up at strategic points which can be restored to restart
+the build process from that point rather than from scratch. Press enter if unsure or if your
+build partition is small(less than 50GB size).
+</li>
+<li>
+Install X Server: Press y if you want to install X Server. If you want to install a desktop
+environment then you would need X Server. If you want to build a server system, you may choose n
+here
+</li>
+<li>
+Install Desktop Environment: If you want to install a desktop environment then enter y here else
+enter n.
+</li>
+<li>
+Desktop Environment: There are four desktop environments to choose from: XFCE, Mate, KDE and Gnome3.
+Enter the number corresponding to the desktop environment from 1 to 4.
+</li>
+<li>
+Install bootloader: If you want the Grub bootloader to be installed enter y here. If you are building
+from within AryaLinux Live Media, you might want to answer y. If you already have some other Linux
+distribution installed in the system you may want to choose n and update the Grub configuration of that
+installation. Please do not forget to boot into that installation and run update-grub2(for ubuntu) or
+grub-mkconfig for other distributions after the build completes so that Grub menu would present an
+option for the newly built system.
+</li>
+<li>
+Create Live ISO: Choose y here if you want to create a Live ISO file at the end of the build process.
+The ISO file would be present in the /sources directory of the partition where you are building the
+system.
+</li>
+</ul>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="4"></a>
+<h4>Final output</h4>
+<p>
+If everything goes smooth, you would have the backups of the various stages in the /sources directory
+of the partition where build is done. This directory would also contain the Live ISO file for the
+system. The resulting system would have alps installed by default which you can use to install other
+applications. You may as well install flatpak and docker to install other applications.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="5"></a>
+<h4>Issues</h4>
+<p>
+If you encounter any issues while running the build process, you can mail us at <a href="mailto:aryalinux11@gmail.com">
+aryalinux11@gmail.com</a> and would try to help you. Please do not forget to mention the build system
+details while contacting us like whether it is a physical system or virtual and the RAM, Hard Disk capacities etc.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

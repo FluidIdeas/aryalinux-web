@@ -1,0 +1,84 @@
+<a name="top"></a>
+<h3>AryaLinux on NVidia Graphics Cards</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Introduction</a></li>
+<li><a href="#2">Download and install the NVidia supporting kernel and kernel headers</a></li>
+<li><a href="#3">Download NVidia drivers</a></li>
+<li><a href="#4">Boot into the new kernel and disable lightdm</a></li>
+<li><a href="#5">Install the NVidia driver</a></li>
+</ol>
+<a name="1"></a>
+<h4>Introduction</h4>
+<p>
+The installation of NVidia graphics driver on AryaLinux is a little tricky. In brief
+this is what it means:
+</p>
+<ul>
+    <li>You need to be running a Linux kernel with Nouveau and NVidia graphics and framebuffer disabled</li>
+    <li>You need to have the kernel headers installed in the right location</li>
+    <li>You need not be running the X-Server while the installer is running.</li>
+</ul>
+<p>
+While its tricky its not difficult to install the NVidia graphics drivers on AryaLinux. The steps to install
+NVidia graphics on AryaLinux are presented here:
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Download and install the NVidia supporting kernel and kernel headers</h4>
+<p>
+Download the NVidia supporting kernel by running the following command:
+</p>
+<pre>
+alps install nvidia-kernel kernel-headers
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Download NVidia drivers</h4>
+<p>
+Visit <a href="https://www.nvidia.in/Download/index.aspx">https://www.nvidia.in/Download/index.aspx</a> and
+download NVidia drivers. You have to select the product type, category etc and for the Operating System,
+choose Linux 64-bit. Once the driver is downloaded, go ahead and give execute permissions to the file, for
+example:
+</p>
+<pre>
+chmod a+x /path/to/the/NVidia-Driver.run
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="4"></a>
+<h4>Boot into the new kernel and disable lightdm</h4>
+<p>
+Reboot and choose the NVidia supporting kernel from the Grub OS Selection menu. After you get to the desktop
+open up a terminal and run the following command to disable the X-Server.
+</p>
+<pre>
+sudo systemctl disable lightdm
+</pre>
+<p>
+Then reboot the system. This time when the system would reboot, it would reboot into the text console. Log into
+the text console by providing the username and password and once in the text console, run the command to execute
+the driver installer.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="5"></a>
+<h4>Install the NVidia driver</h4>
+<p>
+Install the driver by running the following command:
+</p>
+<pre>
+sudo /path/to/the/NVidia-Driver.run
+</pre>
+<p>
+Once the driver installation is done, press the enter key twice to exit out of the installer. Then go ahead and
+enable X-Server before rebooting:
+</p>
+<pre>
+sudo systemctl enable lightdm
+reboot
+</pre>
+<p>
+In the Grub menu, choose the NVidia kernel and you can log into the system. This time the NVidia driver would be
+running.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

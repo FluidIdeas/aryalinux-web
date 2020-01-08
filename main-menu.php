@@ -1,22 +1,19 @@
-<div class="bg-dark">
-    <div class="container main-menu">
-    <?php
-    $pages = array(
-        "index.php"=>"Home",
-        "downloads.php"=>"Downloads",
-        "about.php"=>"About AryaLinux",
-        "docs.php"=>"Documentation",
-        "contact.php"=>"Contact Us",
-        "blog.php"=>"Blog"
-    );
-    $current_page = basename($_SERVER['PHP_SELF']);
-    foreach($pages as $page=>$label) {
-        $active = "";
-        if ($page == $current_page) {
-            $active = "active";
-        }
+<?php
+$menu_options = array(
+    "index.php" => "Home",
+    "downloads.php" => "Downloads",
+    "about.php" => "About AryaLinux",
+    "help.php" => "Help and Support",
+    "documentation.php" => "Documentation"
+);
 ?>
-<a href="<?php echo $page?>" class="<?php echo $active;?>"><?php echo $label?></a>
-<?php } ?>
-    </div>
+<div class="menu-container">
+<div class="container">
+<?php
+    foreach ($menu_options as $link=>$label) {
+        $active = $page == $link?"active":"";
+        echo "<a href=\"$link\" class=\"$active\">$label</a>";
+    }
+?>
+</div>
 </div>

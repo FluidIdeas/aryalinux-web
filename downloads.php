@@ -2,84 +2,109 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 
-  <title>Home of AryaLinux, Linux built from source</title>
-  <meta name="description" content="AryaLinux, Linux built from source">
-  <meta name="author" content="Chandrakant">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>AryaLinux | Linux for Builders</title>
+    <meta name="description" content="AryaLinux | Linux for Builders">
+    <meta name="author" content="Chandrakant Singh">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <?php include_once('logo.php')?>
-    <?php include_once('main-menu.php')?>
-    <div class="container">
-      <h2>Downloads</h2>
-      <table class="fluid-table" cellspacing="0">
-        <thead>
-          <tr>
-            <th>Download</th>
-            <th>URL</th>
-            <th>Checksum</th>
-            <th>Size</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Gnome Live</td>
-            <td><a href="#">aryalinux-gnome-x86_64-2.0.iso</a></td>
-            <td>ec6507b8de234bedcebe5ab43e9a26ef</td>
-            <td>2.1 GB</td>
-          </tr>
-          <tr>
-            <td>XFCE Live</td>
-            <td><a href="#">aryalinux-xfce-x86_64-2.0.iso</a></td>
-            <td>ec6507b8de234bedcebe5ab43e9a26ef</td>
-            <td>2.1 GB</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <h3>Older Versions</h3>
-      <p>Older versions of AryaLinux can be downloaded from our sourceforge home. Click <a href="#">here</a> to view all releases.</p>
-      <br>
-      <h3>Other Downloads</h3>
-      <p>AryaLinux is not just another distribution but also provides a platform for building your own GNU/Linux system from source code.
-      Listed below are files that provide support to builders who wish to build their own GNU/Linux Operating System based on AryaLinux.
-      </p>
-      <table class="fluid-table" cellspacing="0">
-        <thead>
-          <tr>
-            <th>Download</th>
-            <th>URL</th>
-            <th>Checksum</th>
-            <th>Size</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Base System binary tarball</td>
-            <td><a href="#">aryalinux-base-system-x86_64.tar.gz</a></td>
-            <td>ec6507b8de234bedcebe5ab43e9a26ef</td>
-            <td>280 MB</td>
-          </tr>
-          <tr>
-            <td>Base System with X-server binary tarball</td>
-            <td><a href="#">aryalinux-base-system-with-x-server-x86_64.tar.gz</a></td>
-            <td>ec6507b8de234bedcebe5ab43e9a26ef</td>
-            <td>280 MB</td>
-          </tr>
-          <tr>
-            <td>Base System with gnome binary tarball</td>
-            <td><a href="#">aryalinux-base-system-with-gnome-x86_64.tar.gz</a></td>
-            <td>ec6507b8de234bedcebe5ab43e9a26ef</td>
-            <td>280 MB</td>
-          </tr>
-        </tbody>
-      </table>
-      <br>
-      <br>
+    <?php $page = "downloads.php"?>
+    <?php include_once('header.php')?>
+    <div class="page-heading-container">
+        <div class="container">
+            <div class="page-heading">Downloads</div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container">
+        <h2>Desktop Environment spins</h2>
+        <p>
+            Download AryaLinux with the desktop of your choice using one the following links. 
+            The links below are for <a href="#">Live ISO</a> files. For each desktop environment,
+            applications for day-to-day usage are installed like Browser, Document and Image viewer,
+            Audio and Video player, image editor and office productivity suite. In order to install
+            more applications, you can use alps, docker or flatpak. Read more about it <a href="#">here</a>.
+            If you want a Live ISO with just the desktop environment, see the Slim ISO section below.
+        </p>
+        <div style="display: grid; grid-template-columns: 2.5fr 2fr 0.6fr; gap: 10px">
+            <div>URL</div>
+            <div>MD5</div>
+            <div>Size</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-xfce-1.0-x86_64.iso/download">aryalinux-xfce-1.0-x86_64.iso</a></div>
+            <div>33fe6a8e59c9fd23fcbda66f4b646b86</div>
+            <div>2.4GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-gnome-1.0-x86_64-fixed.iso/download">aryalinux-gnome-1.0-x86_64-fixed.iso</a></div>
+            <div>1b4469238b5b5d2b45ad64cee774798f</div>
+            <div>2.3GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-builder-1.0-x86_64.iso/download">aryalinux-builder-1.0-x86_64.iso</a></div>
+            <div>f18910de913c8d85b1e01799bf039d94</div>
+            <div>2.3GB</div>
+        </div>
+        <br>
+        <h2>Slim ISOs</h2>
+        <p>
+            Slim ISOs are Live ISOs with just the desktop environment. You can install applications of your choice once you install
+            the Slim ISO. These ISOs are meant for customization purposes in case you want control over the installed applications.
+        </p>
+        <div style="display: grid; grid-template-columns: 2.5fr 2fr 0.6fr; gap: 10px">
+            <div>URL</div>
+            <div>MD5</div>
+            <div>Size</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-xfce-1.0-x86_64.iso/download">aryalinux-xfce-1.0-x86_64.iso</a></div>
+            <div>33fe6a8e59c9fd23fcbda66f4b646b86</div>
+            <div>2.4GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-gnome-1.0-x86_64-fixed.iso/download">aryalinux-gnome-1.0-x86_64.iso</a></div>
+            <div>1b4469238b5b5d2b45ad64cee774798f</div>
+            <div>2.4GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-xfce-1.0-x86_64.iso/download">aryalinux-xfce-1.0-x86_64.iso</a></div>
+            <div>33fe6a8e59c9fd23fcbda66f4b646b86</div>
+            <div>2.4GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-xfce-1.0-x86_64.iso/download">aryalinux-xfce-1.0-x86_64.iso</a></div>
+            <div>33fe6a8e59c9fd23fcbda66f4b646b86</div>
+            <div>2.4GB</div>
+        </div>
+        <br>
+        <h2>Development backups</h2>
+        <p>
+            During the build process of AryaLinux, we make backups at strategic points. You can download them below.
+            A lot can be done with these backup files. Read more about them <a href="#">here</a>.
+        </p>
+        <div style="display: grid; grid-template-columns: 2.5fr 2fr 0.6fr; gap: 10px">
+            <div>URL</div>
+            <div>MD5</div>
+            <div>Size</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-xfce-1.0-x86_64.iso/download">AryaLinux 2.1 base system</a></div>
+            <div>33fe6a8e59c9fd23fcbda66f4b646b86</div>
+            <div>2.4GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-gnome-1.0-x86_64-fixed.iso/download">AryaLinux 2.1 base system with X Server</a></div>
+            <div>1b4469238b5b5d2b45ad64cee774798f</div>
+            <div>2.3GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-builder-1.0-x86_64.iso/download">AryaLinux 2.1 base system with X Server and XFCE</a></div>
+            <div>f18910de913c8d85b1e01799bf039d94</div>
+            <div>2.3GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-builder-1.0-x86_64.iso/download">AryaLinux 2.1 base system with X Server and Mate</a></div>
+            <div>f18910de913c8d85b1e01799bf039d94</div>
+            <div>2.3GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-builder-1.0-x86_64.iso/download">AryaLinux 2.1 base system with X Server and KDE Plasma</a></div>
+            <div>f18910de913c8d85b1e01799bf039d94</div>
+            <div>2.3GB</div>
+            <div><a href="https://sourceforge.net/projects/aryalinux/files/releases/1.0/aryalinux-builder-1.0-x86_64.iso/download">AryaLinux 2.1 base system with X Server and Gnome</a></div>
+            <div>f18910de913c8d85b1e01799bf039d94</div>
+            <div>2.3GB</div>
+        </div>
+        <br>
+        <h2>Older Releases</h2>
+        <p>
+            For older releases, visit our sourceforge site: <a href="https://sourceforge.net/projects/aryalinux/files/">https://sourceforge.net/projects/aryalinux/files/</a>.
+        </p>
+        <br>
+        <br>
+        </div>
     </div>
     <?php include_once('footer.php')?>
 </body>

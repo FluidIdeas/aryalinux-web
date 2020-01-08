@@ -1,0 +1,63 @@
+<a name="top"></a>
+<h3>VirtualBox and VMWare</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Installing VirtualBox and VMWare in AryaLinux</a></li>
+<li><a href="#2">Running AryaLinux inside VirtualBox</a></li>
+<li><a href="#3">Running AryaLinux inside VMWare</a></li>
+</ol>
+<a name="1"></a>
+<h4>Installing VirtualBox and VMWare in AryaLinux</h4>
+<p>
+Installing VirtualBox and VMWare in AryaLinux is pretty straightforward.
+Before installing VirtualBox and VMware please install the kernel-headers package.
+</p>
+<pre>
+alps install kernel-headers
+</pre>
+<p>
+After that you need to download the VirtualBox or VMWare installation binaries
+from their website and give it execute permissions.
+</p>
+<pre>
+chmod a+x /path/to/vbox-or-vmware-binary
+</pre>
+<p>
+Run the installation binary. These binaries are self extracting archives and they tend to install
+VirtualBox or VMWare in AryaLinux if the kernel-headers are installed successfully and found.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Running AryaLinux inside VirtualBox</h4>
+<p>
+You can run AryaLinux inside VirtualBox by either running it in live mode or installing AryaLinux
+in your virtual hard disk. In order to run AryaLinux in live mode, download the AryaLinux Live ISO
+of the desktop environment of your choice from <a href="/downloads.php">the downloads section.</a>.
+Once downloaded create a new virtual machine in VirtualBox. Here are few screenshots of the Virtual
+Machine's settings with the recommended options:
+</p>
+<ul class="no-bullet">
+    <li><img src="help/images/virtual/1.png" style="width: 80%"></li>
+    <li><img src="help/images/virtual/2.png" style="width: 80%"></li>
+    <li><img src="help/images/virtual/3.png" style="width: 80%"></li>
+    <li><img src="help/images/virtual/4.png" style="width: 80%"></li>
+    <li><img src="help/images/virtual/5.png" style="width: 80%"></li>
+</ul>
+<p>
+On starting the virtual machine you would see the grub OS selection menu, where choose the default
+option. In case you are not able to boot into the default option, then choose the 2nd option to see
+the logs as the machine starts. The Live mode logs right into the desktop and lets you test the OS
+without installing it. Please keep in mind that vbox additions are not installed in the live media.
+In order to install VBox Additions, you need to install AryaLinux into the hard disk and then install
+the vbox additions. Please note that after installation, to boot into the system using the VDI hard
+disk and not the ISO, you need to remove the ISO from the VM's Drive.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Running AryaLinux inside VMWare</h4>
+<p>
+The process to run AryaLinux inside VMWare is almost the same as running it inside VirtualBox. It might
+be a bit tricky to run AryaLinux in EFI mode. To do that you need to edit the .vmx file for the newly-created
+VM and add the line: firmware = "efi" at the end. Then restart the VM.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

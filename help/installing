@@ -1,0 +1,91 @@
+<a name="top"></a>
+<h3>Installing AryaLinux</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">System Requirements</a></li>
+<li><a href="#2">Downloading and Preparing the live media for booting</a></li>
+<li><a href="#3">Booting</a></li>
+<li><a href="#4">Running the Installer</a></li>
+<li><a href="#5">Issues/Troubleshooting</a></li>
+</ol>
+<a name="1"></a>
+<h4>System Requirements</h4>
+<p>
+The minimum system requirements to run AryaLinux are as follows:
+</p>
+<ul>
+    <li>RAM: 2GB</li>
+    <li>Hard Disk space: 15GB</li>
+    <li>Processor: 3rd generation Intel i3 Processor</li>
+    <li>USB port or DVD Drive</li>
+    <li>Resolution: 1366x768</li>
+</ul>
+<p>
+While the above requirements are sufficient to run AryaLinux, you may not
+get optimum performance by running AryaLinux on a system with the above
+configuration. We have tested AryaLinux on systems with the above configuration
+and it works. Systems with configuration better than that mentioned above
+would surely run AryaLinux better. Here are the recommended specifications to
+get a very good performance:
+</p>
+<ul>
+    <li>RAM: 8GB</li>
+    <li>Hard Disk space: 200GB</li>
+    <li>Processor: Latest Intel or AMD Processor</li>
+    <li>USB port or DVD Drive</li>
+    <li>Resolution: 1920x1080</li>
+</ul>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Downloading and Preparing the live media for booting</h4>
+<p>
+AryaLinux is available with various desktop environment options like KDE, Gnome3, XFCE
+and Mate. You can download the ISO of the desktop environment you want to install from
+the <a href="downloads.php">downloads section</a>. Once the ISO file is downloaded, you
+can either burn the ISO into a DVD or write it into a pen drive. There are several
+software that can help you do that. If you are in Windows, then you can use
+<a href="https://unetbootin.github.io/">Unetbootin</a>. Unetbootin is available for Linux
+as well. If you are on Linux, you can also use the dd command to write the ISO into the
+Pen Drive. The dd command is for advanced users and one should exercise caution while
+executing this command:
+</p>
+<pre>
+dd if=/path/to/aryalinux-iso-file of=/dev/sdx status=progress bs=10M oflag=sync
+</pre>
+<p>
+Please replace <b>/path/to/aryalinux-iso-file</b> in the command above with the
+path to the AryaLinux ISO file you downloaded earlier and <b>/dev/sdx</b> with
+the USB device where you want to install AryaLinux. You may use the fdisk command
+to get a list of the devices in the system.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Booting</h4>
+<p>
+Once the boot media is prepared, you can boot into AryaLinux by choosing the boot
+media prepared in the above step from the BIOS boot menu. If your hard disk is
+formatted has a MBR or MSDOS type partition, then please <b><i>dont</i></b> boot
+into the boot media in the UEFI mode. In case the hard disk has a GPT partition type
+then boot in UEFI mode. Please make sure you boot into the right mode and you have
+the right partition type as mentioned above otherwise AryaLinux would not install.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="4"></a>
+<h4>Running the Installer</h4>
+<p>
+Once you have boot into the live media, you can run AryaLinux installer to install
+the OS into the hard disk. AryaLinux's installer is different from the installers
+of other Linux distributions but the questions that are asked by the installer are
+nearly the same. We are working on making the Installer more user friendly and you
+would see improvements with time. <a href="documentation.php?article=aryalinux-doc#2">
+Here</a> are the instructions on how to use the installer.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="5"></a>
+<h4>Issues/Troubleshooting</h4>
+<p>
+In case you encounter any issues in the installation process, please write to us
+at <a herf="mailto:aryalinux11@gmail.com">aryalinux11@gmail.com</a> and we would
+try sorting it out for you.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
