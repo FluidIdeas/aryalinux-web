@@ -9,7 +9,7 @@
     <h4>Links</h4>
     <a href="index.php">Home</a><br>
     <a href="about.php">About AryaLinux</a><br>
-    <a href="contributing.php">Contributing</a><br>
+    <a href="contact.php">Contact Us</a><br>
     <a href="help.php">Help &amp; Support</a><br>
     <a href="documentation.php">Documentation</a><br>
 </div>

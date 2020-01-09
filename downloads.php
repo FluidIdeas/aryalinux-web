@@ -25,10 +25,10 @@
         <h2>Desktop Environment spins</h2>
         <p>
             Download AryaLinux with the desktop of your choice using one the following links. 
-            The links below are for <a href="#">Live ISO</a> files. For each desktop environment,
+            The links below are for Live ISO files. For each desktop environment,
             applications for day-to-day usage are installed like Browser, Document and Image viewer,
             Audio and Video player, image editor and office productivity suite. In order to install
-            more applications, you can use alps, docker or flatpak. Read more about it <a href="#">here</a>.
+            more applications, you can use alps, docker or flatpak. Read more about it <a href="help.php?article=apps">here</a>.
             If you want a Live ISO with just the desktop environment, see the Slim ISO section below.
         </p>
         <p>
@@ -42,7 +42,7 @@
             <div class="even">b1a611bb27bf3cd4de0bebe1ff3c83d9</div>
             <div class="even">2.2 GB</div>
             <div class="odd"><a href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-mate-x86_64.iso/download">aryalinux-2.1-mate-x86_64.iso</a></div>
-            <div class="odd">51955d71c2fa7c638e26799a74425e33</div>
+            <div class="odd">e92392e058b00d0bd154d938623738cc</div>
             <div class="odd">2.4 GB</div>
             <div class="even"><a href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-kde5-x86_64.iso/download">aryalinux-2.1-kde5-x86_64.iso</a></div>
             <div class="even">1698df70a73a4240fed27cb5618095b5</div>

@@ -15,7 +15,11 @@
 <body>
     <?php $page = "about.php"?>
     <?php include_once('header.php')?>
-    <div class="banner-container"><div class="container"><h2>Screenshots</h2></div></div>
+    <div class="page-heading-container">
+        <div class="container">
+            <div class="page-heading">Screenshots</div>
+        </div>
+    </div>
     <div class="main-content">
         <div class="container">
             <div class="screenshot-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">

@@ -43,7 +43,7 @@
             especially for people with no background in software development. So we have created a tool that would make the task of
             downloading, building, installing and resolving dependencies for applications easy. alps provides a command line interface
             with basic package management options like install, upgrade etc to easy application installation and update. Learn more
-            about alps <a href="#">here</a>.
+            about alps <a href="documentation.php?article=alps-doc">here</a>.
         </p>
         <br>
         <h2>AryaLinux Build platform</h2>

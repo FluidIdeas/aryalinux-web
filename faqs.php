@@ -15,7 +15,11 @@
 <body>
     <?php $page = "about.php"?>
     <?php include_once('header.php')?>
-    <div class="banner-container"><div class="container"><h2>About AryaLinux</h2></div></div>
+    <div class="page-heading-container">
+        <div class="container">
+            <div class="page-heading">Frequently Asked Questions</div>
+        </div>
+    </div>
     <div class="main-content">
         <div class="container">
         <h2>Frequently Asked Questions</h2>
@@ -44,7 +48,7 @@
             applications using build scipts that are bash scripts with instructions to download, build and install the packages
             from source tarballs that are publicly available over the internet.
             alps can resolve package dependencies and can also be used to update packages. A detailed documentation of alps
-            can be found <a href="#">here</a>.
+            can be found <a href="documentation.php?article=alps-doc">here</a>.
             </dd>
             <dt>Does AryaLinux support package managers of other distributions?</dt>
             <dd>
