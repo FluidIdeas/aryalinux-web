@@ -65,6 +65,7 @@ $articles = array(
         ?>
         <?php } ?>
         </div>
+        <br><br>
     </div>
     <?php include_once('footer.php')?>
 </body>

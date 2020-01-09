@@ -42,6 +42,7 @@
                 would like to help with development or testing.
                 </p>
             </div>
+            <br><br>
         </div>
     </div>
     <?php include_once('footer.php')?>

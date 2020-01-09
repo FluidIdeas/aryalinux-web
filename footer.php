@@ -1,6 +1,5 @@
 <div class="footer-container1">
 <div class="container">
-(C) 2020, aryalinux.info. All Rights Reserved
 </div>
 </div>
 <div class="footer-container2">
