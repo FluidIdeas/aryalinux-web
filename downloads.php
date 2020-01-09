@@ -39,7 +39,7 @@
             <div class="head">MD5</div>
             <div class="head">Size</div>
             <div class="even"><a href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-xfce-x86_64.iso/download">aryalinux-2.1-xfce-x86_64.iso</a></div>
-            <div class="even">b1a611bb27bf3cd4de0bebe1ff3c83d9</div>
+            <div class="even">a91738dca700b6525617bf46347b9095</div>
             <div class="even">2.2 GB</div>
             <div class="odd"><a href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-mate-x86_64.iso/download">aryalinux-2.1-mate-x86_64.iso</a></div>
             <div class="odd">e92392e058b00d0bd154d938623738cc</div>
