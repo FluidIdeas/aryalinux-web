@@ -13,7 +13,7 @@
 <h4>Introduction</h4>
 <p>
 AryaLinux is a GNU/Linux Operating System that is derived from the
-<a href="http://linuxfromscratch.org">LFS</a> and <a href="http://linuxfromscratch.org/blfs">BLFS</a>
+<a target="_blank" href="http://linuxfromscratch.org">LFS</a> and <a target="_blank" href="http://linuxfromscratch.org/blfs">BLFS</a>
 books. AryaLinux is a general purpose Operating System that can
 be used on laptops, desktops and servers. AryaLinux is vanilla Linux that
 is built from source tarballs published by authors of the hunderds of
@@ -112,7 +112,7 @@ In the following screen the language and locale needs to be selected. The langua
 en_US.utf8. The first part of the code represents the language for instance en represents English in these examples.
 The second part represents the country, for instance IN represents India and US represents the United States in these
 examples. The last part represents the encoding. Not choosing the right encoding may result in problems in the text
-appearing in all or some applications. Read more about encoding <a href="https://www.praim.com/en/character-encodings-in-linux-ascii-utf-8-and-iso-8859/">here</a>.
+appearing in all or some applications. Read more about encoding <a target="_blank" href="https://www.praim.com/en/character-encodings-in-linux-ascii-utf-8-and-iso-8859/">here</a>.
 </p>
 <img src="images/installer/5.png">
 <br>

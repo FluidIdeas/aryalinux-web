@@ -38,7 +38,7 @@ may result in a dead system or might put strain on your hardware as well.
 The best way to build AryaLinux is using the AryaLinux Live ISO but you can
 also use an existing Linux distribution to do the same. The only impediment
 would be few pre-requisites that the system has to meet before the build
-process can start. Please take a look at the <a href="http://www.linuxfromscratch.org/lfs/view/systemd/chapter02/hostreqs.html">following page</a>
+process can start. Please take a look at the <a target="_blank" href="http://www.linuxfromscratch.org/lfs/view/systemd/chapter02/hostreqs.html">following page</a>
 to learn more about the pre-requisites. Once you are done installing the
 required tools and software in the host system, you can get started with the
 build process. Please note that the AryaLinux Live ISO has all the prerequisites

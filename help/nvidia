@@ -30,7 +30,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 </pre>
 <b>Download NVidia drivers</b>
 <p>
-Visit <a href="https://www.nvidia.in/Download/index.aspx">https://www.nvidia.in/Download/index.aspx</a> and
+Visit <a target="_blank" href="https://www.nvidia.in/Download/index.aspx">https://www.nvidia.in/Download/index.aspx</a> and
 download NVidia drivers. You have to select the product type, category etc and for the Operating System,
 choose Linux 64-bit. Once the driver is downloaded, go ahead and give execute permissions to the file, for
 example:

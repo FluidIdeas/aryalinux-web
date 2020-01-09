@@ -8,10 +8,10 @@
 <a name="1"></a>
 <h4>Create bootable USB in Windows</h4>
 <p>
-Download <a href="https://github.com/unetbootin/unetbootin/releases/download/675/unetbootin-windows-675.exe">unetbootin</a>
+Download <a target="_blank" href="https://github.com/unetbootin/unetbootin/releases/download/675/unetbootin-windows-675.exe">unetbootin</a>
 and run the downloaded exe file. Follow the following link that outlines
 the process of writing the downloaded ISO onto the USB Device:<br>
-<a href="https://unetbootin.github.io/#install">https://unetbootin.github.io/#install</a>
+<a target="_blank" href="https://unetbootin.github.io/#install">https://unetbootin.github.io/#install</a>
 </p>
 <div style="text-align: right"><a href="#top">Top</a></div>
 <a name="2"></a>

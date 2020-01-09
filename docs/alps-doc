@@ -74,7 +74,8 @@ installed-list file and versions file.
 <a name="3"></a>
 <h4>Adding new build scripts to repository</h4>
 <p>
-The path to AryaLinux online repository is <a href="https://bitbucket.org/chandrakantsingh/aryalinux/src/master/applications/">https://bitbucket.org/chandrakantsingh/aryalinux/src/master/applications/</a>.
+The path to AryaLinux online repository is <a target="_blank"
+href="https://bitbucket.org/chandrakantsingh/aryalinux/src/master/applications/">https://bitbucket.org/chandrakantsingh/aryalinux/src/master/applications/</a>.
 So if you come up with build scripts for a given application, please clone the repository mentioned above, put the build scripts
 in the applications directory and raise a merge request and we would review it and add it to the respoitory.
 </a>

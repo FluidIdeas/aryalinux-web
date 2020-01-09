@@ -50,7 +50,7 @@ Docker is a tool designed to make it easier to create, deploy, and run applicati
 using containers. Using docker containers one can install a wide varierty of applications
 ranging from programming languages to platforms to tools and server applications and
 minimal OS images. You can see the whole list of applications present in docker by visiting
-the <a href="https://hub.docker.com/">Docker Hub</a>. Docker can be installed using the
+the <a target="_blank" href="https://hub.docker.com/">Docker Hub</a>. Docker can be installed using the
 following alps command:
 </p>
 <pre>
@@ -62,7 +62,7 @@ docker is installed by downloading docker binary files and not built from source
 code.
 </p>
 <p>
-The <a href="https://www.tecmint.com/install-run-and-delete-applications-inside-docker-containers/">
+The <a target="_blank" href="https://www.tecmint.com/install-run-and-delete-applications-inside-docker-containers/">
 following Techmint article</a> is a good guide on how to use docker.
 </p>
 <div style="text-align: right"><a href="#top">Top</a></div>

@@ -28,12 +28,12 @@
                 to us at <a href="mailto:aryalinux11@gmail.com">aryalinux11@gmail.com</a>
                 </p>
                 <p>
-                If you like AryaLinux, please visit our <a href="https://distrowatch.com/arya">distrowatch page</a>.
+                If you like AryaLinux, please visit our <a target="_blank" href="https://distrowatch.com/arya">distrowatch page</a>.
                 Every time you visit the above link, it results in an increase in our hit counter. Thus more
                 people come to know about AryaLinux.
                 </p>
                 <p>
-                You may also visit our forums in case you have any questions: <a href="https://www.linuxquestions.org/questions/aryalinux-120/">AryaLinux Forum</a>.
+                You may also visit our forums in case you have any questions: <a target="_blank" href="https://www.linuxquestions.org/questions/aryalinux-120/">AryaLinux Forum</a>.
                 </p>
                 <p>
                 If you would like to help us with translations then please write to us

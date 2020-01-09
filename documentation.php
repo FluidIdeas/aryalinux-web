@@ -39,7 +39,7 @@ $articles = array(
 		things related to AryaLinux that would help someone understand AryaLinux in as much detail as possible.
 		</p>
 		<p>
-		Since AryaLinux borrows heavily from <a href="http://linuxfromscratch.org/">Linux from scratch</a> and <a href="http://linuxfromscratch.org/blfs/">Beyond Linux from scratch</a> books, it would be
+		Since AryaLinux borrows heavily from <a target="_blank" href="http://linuxfromscratch.org/">Linux from scratch</a> and <a target="_blank" href="http://linuxfromscratch.org/blfs/">Beyond Linux from scratch</a> books, it would be
 		a good idea to read them first. The documentation presented below adds to the knowledge provided in the
 		LFS and BLFS books.
 		</p>

@@ -19,8 +19,8 @@
 </div>
 <div style="text-align: justify">
     <br>
-    LFS and BLFS are intellectual properties of <a href="http://linuxfromscratch.org">http://linuxfromscratch.org</a>.
-    AryaLinux is released under the GNU General Public License v3.0. All software packaged with AryaLinux is available publicly and AryaLinux scripts and other tools can be downloaded from out <a href="https://bitbucket.org/chandrakantsingh/aryalinux">bitbucket repository</a>.
+    <a target="_blank" href="http://linuxfromscratch.org">LFS</a> and <a target="_blank" href="http://linuxfromscratch.org/blfs">BLFS</a> are intellectual properties of <a target="_blank" href="http://linuxfromscratch.org">http://linuxfromscratch.org</a>.
+    AryaLinux is released under the GNU General Public License v3.0. All software packaged with AryaLinux is available publicly and AryaLinux scripts and other tools can be downloaded from out <a target="_blank" href="https://bitbucket.org/chandrakantsingh/aryalinux">bitbucket repository</a>.
 </div>
 </div>
 <br>

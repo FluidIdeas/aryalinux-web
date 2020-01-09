@@ -44,7 +44,7 @@ and Mate. You can download the ISO of the desktop environment you want to instal
 the <a href="downloads.php">downloads section</a>. Once the ISO file is downloaded, you
 can either burn the ISO into a DVD or write it into a pen drive. There are several
 software that can help you do that. If you are in Windows, then you can use
-<a href="https://unetbootin.github.io/">Unetbootin</a>. Unetbootin is available for Linux
+<a target="_blank" href="https://unetbootin.github.io/">Unetbootin</a>. Unetbootin is available for Linux
 as well. If you are on Linux, you can also use the dd command to write the ISO into the
 Pen Drive. The dd command is for advanced users and one should exercise caution while
 executing this command:
