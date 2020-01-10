@@ -59,6 +59,17 @@ can be found under the following menus:
 <li>KDE Plasma - Applications -> System -> Installer</li>
 <li>Mate desktop environment - Applications -> System -> Installer</li>
 </ul>
+<img style="width: 100%" src="images/installer/1.png">
+<br><br>
+<b>Disk partitioning before installation</b>
+<p>
+Before starting the installation please make sure you have a partition where you can install AryaLinux.
+AryaLinux needs at least a partition of size 20GB for installation and if you are booting in the EFI
+mode you need a EFI boot partition as well. You can click on the Partition Disk button in the installer
+to start the partition manager. <span style="color: red"><b>If the partition manager asks you for a password
+please enter aryalinux as the password.</b></span>
+</p>
+<img style="width: 100%" src="images/installer/0.png">
 <b>Installer screens: Device Selection</b>
 <p>
 The Installer would present start with the device selection screen. Please choose the device where you would like
@@ -66,7 +77,7 @@ to install AryaLinux. The device may show cryptic names like /dev/sda or /dev/sd
 into the details to figure out the device that is being referred to. Beside the device name, the device's size would
 be displayed. That should help in selecting the device or Hard Disk where the installation has to be done.
 <br>
-<img src="images/installer/1.png">
+<img style="width: 100%" src="images/installer/2.png">
 </p>
 <b>Partition Selection</b>
 <p>
@@ -77,22 +88,42 @@ they choose to select more than one partitions. Please make sure that the boot p
 that you select have an ext4 filesystem in them. Also please make sure that the root partition, the home partition
 and the boot partition all should be different from each other.
 <br>
-<img src="images/installer/2.png">
+<img style="width: 100%" src="images/installer/3.png">
 </p>
 <p>
 Here are the recommended sizes of each of the partitions:
 </p>
 <ul>
+<li>EFI Partition: In case you have an GPT partition table and boot in EFI mode, you need to have an EFI partition
+where the bootloader can be installed.</li>
 <li>Root Partition: Minimum 20GB</li>
 <li>Home Partition: Minimum 2GB or whatever home partition you already have.</li>
 <li>Boot Partition: 200MB or whatever boot partition you already have.</li>
 <li>Swap partition: The swap partition is only needed if you have less than 4GB RAM. In such a case, a partition of size two times the RAM would be enough</li>
 </ul>
+<br><br>
+<b>Timezone</b>
+<p>
+The timezone shows the list of timezones from which you can select your timezone. Please make sure you select
+the right Country/City from the list presented in this screen
+</p>
+<img style="width: 100%" src="images/installer/4.png">
+<br><br>
+<b>Language and keyboard selection</b>
+<p>
+In the following screen the language and locale needs to be selected. The language is a code like en_IN.utf8 or
+en_US.utf8. The first part of the code represents the language for instance en represents English in these examples.
+The second part represents the country, for instance IN represents India and US represents the United States in these
+examples. The last part represents the encoding. Not choosing the right encoding may result in problems in the text
+appearing in all or some applications. Read more about encoding <a target="_blank" href="https://www.praim.com/en/character-encodings-in-linux-ascii-utf-8-and-iso-8859/">here</a>.
+</p>
+<img style="width: 100%" src="images/installer/5.png">
+<br>
 <b>User Details</b>
 <p>
 In the user details screen the user's name and other details have to be entered.
 </p>
-<img src="images/installer/3.png">
+<img style="width: 100%" src="images/installer/6.png">
 <p>
 Here are few things that you need to take care of while providing these details:
 </p>
@@ -104,30 +135,30 @@ Here are few things that you need to take care of while providing these details:
 <p>In the following screen the root user's password needs to be entered. The Administrator account
 is known as the root user in AryaLinux.
 </p>
-<img src="images/installer/4.png">
-<br>
-<b>Language and keyboard selection</b>
-<p>
-In the following screen the language and locale needs to be selected. The language is a code like en_IN.utf8 or
-en_US.utf8. The first part of the code represents the language for instance en represents English in these examples.
-The second part represents the country, for instance IN represents India and US represents the United States in these
-examples. The last part represents the encoding. Not choosing the right encoding may result in problems in the text
-appearing in all or some applications. Read more about encoding <a target="_blank" href="https://www.praim.com/en/character-encodings-in-linux-ascii-utf-8-and-iso-8859/">here</a>.
-</p>
-<img src="images/installer/5.png">
-<br>
+<img style="width: 100%" src="images/installer/7.png">
+<br><br>
 <b>Confirmation and installation progress</b>
 <p>
 In the following screen one can check if all the data entered in the previous screens are correct. In case they are not,
 one can go back and modify the details. In case you are satisfied with the details entered, you can start the install process.
 </p>
-<img src="images/installer/6.png">
+<img style="width: 100%" src="images/installer/8.png">
 <p>
 Once the installation starts, the installation log screen would appear and installation logs would be displayed here.
 The installation logs give a fair idea of the progress in installation and errors if any do happen. Once the installation
 log screen displays done, you can go ahead and close the installer and reboot the system after removing the boot media
 to boot into the newly installed AryaLinux.
 </p>
+<img style="width: 100%" src="images/installer/9.png">
+<br><br>
+<b>Installation completion</b>
+<p>
+Once the installation completes, you would see the message "Installation completed successfully" in the progress console.
+Then simply click Close and exit the installer. Reboot and you should be able to login to the newly installed system.
+Please make sure you remove the live media before booting to avoid rebooting into the live media.
+</p>
+<img style="width: 100%" src="images/installer/10.png">
+<br><br>
 <div style="text-align: right"><a href="#top">Top</a></div>
 <a name="3"></a>
 <h4>Packages and Applications</h4>
