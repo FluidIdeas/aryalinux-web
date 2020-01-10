@@ -13,6 +13,7 @@ Installing VirtualBox and VMWare in AryaLinux is pretty straightforward.
 Before installing VirtualBox and VMware please install the kernel-headers package.
 </p>
 <pre>
+alps updatescripts
 alps install kernel-headers
 </pre>
 <p>

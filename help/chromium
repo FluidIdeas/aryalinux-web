@@ -1,0 +1,19 @@
+<a name="top"></a>
+<h3>How to install Chromium browser</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Installing Chromium browser on AryaLinux</a></li>
+</ol>
+<a name="1"></a>
+<h4>Installing Chromium browser on AryaLinux</h4>
+<p>
+Chromium browser is one of the few applications that gets installed in AryaLinux via binaries.
+Chromium as such takes a very long time to build and installing Chromium using binaries saves
+the time. Anyways the package that needs to be installed to install Chromium is chromium-bin.
+Run the following command to install Chromium:
+</p>
+<pre>
+alps updatescripts
+alps install chromium-bin
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>

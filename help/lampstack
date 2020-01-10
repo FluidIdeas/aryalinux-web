@@ -26,6 +26,7 @@ supported in AryaLinux.
 Use the following command to install the lamp stack.
 </p>
 <pre>
+alps updatescripts
 alps install php apache mariadb
 </pre>
 <p>

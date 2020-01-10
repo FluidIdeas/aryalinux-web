@@ -7,7 +7,8 @@ $articles = array(
     "apps",
     "remastering",
     "lampstack",
-    "install-on-mulitple-hdd"
+    "install-on-mulitple-hdd",
+    "chromium"
 );
 ?>
 <!doctype html>
@@ -58,6 +59,7 @@ $articles = array(
                 <h3>Applications</h3>
                 <ul>
                     <li><a href="?article=lampstack">How to install lamp stack</a></li>
+                    <li><a href="?article=chromium">How to install Chromium browser</a></li>
                 </ul>
             </div>
             <div>
