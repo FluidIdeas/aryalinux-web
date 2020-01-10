@@ -38,17 +38,17 @@
             <div class="head">URL</div>
             <div class="head">MD5</div>
             <div class="head">Size</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-xfce-x86_64.iso/download">aryalinux-2.1-xfce-x86_64.iso</a></div>
-            <div class="even">a91738dca700b6525617bf46347b9095</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-xfce-x86_64.iso">aryalinux-2.1-xfce-x86_64.iso</a></div>
+            <div class="even">f70300c6b10a34198ba39c25a8cda6c5</div>
             <div class="even">2.2 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-mate-x86_64.iso/download">aryalinux-2.1-mate-x86_64.iso</a></div>
-            <div class="odd">e92392e058b00d0bd154d938623738cc</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-mate-x86_64.iso">aryalinux-2.1-mate-x86_64.iso</a></div>
+            <div class="odd">cc195b10b9024cac805f05991cbe048d</div>
             <div class="odd">2.4 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-kde5-x86_64.iso/download">aryalinux-2.1-kde5-x86_64.iso</a></div>
-            <div class="even">1698df70a73a4240fed27cb5618095b5</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-kde5-x86_64.iso">aryalinux-2.1-kde5-x86_64.iso</a></div>
+            <div class="even">32a4f2d1b9bd3d0e98b581943ee081cd</div>
             <div class="even">2.7 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-gnome-x86_64.iso/download">aryalinux-2.1-gnome-x86_64.iso</a></div>
-            <div class="odd">b543328de891048a842c3344ad92af24</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-gnome-x86_64.iso">aryalinux-2.1-gnome-x86_64.iso</a></div>
+            <div class="odd">f7c52acefeb6ddffc54e1b6093ff02e2</div>
             <div class="odd">2.3 GB</div>
         </div>
         <br>
