@@ -29,7 +29,7 @@
                 <div class="download-panel">
                     <div class="heading">AryaLinux 2.1 Released</div>
                     <br>
-                    <a href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-gnome-x86_64.iso" class="download-btn" target="_blank">Download AryaLinux 2.1 Gnome</a>
+                    <a href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-gnome-x86_64.iso" class="download-btn" target="_blank">Download AryaLinux 2.1 Gnome</a>
                     <br><br>
                     <a href="release-notes-2.1.php">Release Notes</a>
                     <br><br>
