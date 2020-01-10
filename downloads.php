@@ -81,7 +81,7 @@
         <h2>Development backups</h2>
         <p>
             During the build process of AryaLinux, we make backups at strategic points. You can download them below.
-            A lot can be done with these backup files. Read more about them <a href="#">here</a>.
+            A lot can be done with these backup files. Read more about them <a href="help.php?article=remastering">here</a>.
         </p>
         <div style="display: grid; grid-template-columns: 2.5fr 2fr 0.6fr;">
             <div class="head">URL</div>

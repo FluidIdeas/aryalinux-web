@@ -1,0 +1,40 @@
+<a name="top"></a>
+<h3>AryaLinux installation failing on system with multiple hard disks</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">The Issue</a></li>
+<li><a href="#1">The Cause</a></li>
+<li><a href="#3">Solution</a></li>
+</ol>
+<a name="1"></a>
+<h4>The Issue</h4>
+<p>
+When you try installing AryaLinux on a system with multiple hard disks it fails.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>The Cause</h4>
+<p>
+This is because of a glitch in the installer which does not take into account the
+fact that there can multiple hard disks connected to the system. It so happens that
+while installing AryaLinux on systems with a gpt type partition, the installer needs
+to find out the EFI partition and the piece of bash script that tries finding out
+the UUID of the EFI partition fails when there are multiple hard disks.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Solution</h4>
+<p>
+The issue has been fixed. All you need to do is patch the installer in the Live
+system with the fix in our development server. In simpler terms, once you boot
+into the Live system, connect to the internet and run the following commands from
+the terminal:
+</p>
+<pre>
+cd /opt/installer-new
+sudo git pull
+</pre>
+<p>
+Now go ahead and run the installer again and it should work fine this time.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>

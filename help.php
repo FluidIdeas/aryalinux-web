@@ -6,7 +6,8 @@ $articles = array(
     "building",
     "apps",
     "remastering",
-    "lampstack"
+    "lampstack",
+    "install-on-mulitple-hdd"
 );
 ?>
 <!doctype html>
@@ -57,6 +58,12 @@ $articles = array(
                 <h3>Applications</h3>
                 <ul>
                     <li><a href="?article=lampstack">How to install lamp stack</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Issues &amp; Solutions</h3>
+                <ul>
+                    <li><a href="?article=install-on-mulitple-hdd">AryaLinux installation failing on system with multiple hard disks</a></li>
                 </ul>
             </div>
         </div>
