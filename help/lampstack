@@ -28,6 +28,18 @@ Use the following command to install the lamp stack.
 <pre>
 alps install php apache mariadb
 </pre>
+<p>
+On running the above command, during the installation of net-snmp, you would
+be prompted to press enter several times, hit the enter key a number of times
+when prompted to accept the default values. You might also be prompted to hit
+the enter key again to accept default for other packages, you need to hit
+enter in those cases as well. You would also be prompted to enter a new password
+for mariadb. After the installation completes, start the mariadb server by
+running the following command:
+</p>
+<pre>
+sudo systemctl start mysqld
+</pre>
 <div style="text-align: right"><a href="#top">Top</a></div>
 <a name="3"></a>
 <h4>Configuration/Use</h4>
@@ -55,11 +67,5 @@ sudo sed -i 's@DirectoryIndex index.html@DirectoryIndex index.php index.html@g' 
 /etc/httpd/httpd.conf
 </pre>
 <ul>
-<li>
-Run the following command to give a root password for mariadb.
-</li>
 </ul>
-<pre>
-mysql_secure_installation
-</pre>
 <div style="text-align: right"><a href="#top">Top</a></div>
