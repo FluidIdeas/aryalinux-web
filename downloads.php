@@ -33,22 +33,25 @@
         </p>
         <p>
         <b style="color: red">Please note that password for the aryalinux account in the Live Disk is aryalinux and has super user rights.</b>
+        <br>
+        <b style="color: red">The Installer hangs while installing AryaLinux on a system with MSDOS partition table with the message: "NameError: global name 'subprocess' is not defined". Please follow <a href="help.php?article=install-on-mulitple-hdd">this</a>
+        article to fix the issue. The issue has been fixed and we are uploading the new files and they would be available shortly.</b>
         </p>
         <div style="display: grid; grid-template-columns: 2.5fr 2fr 0.6fr;">
             <div class="head">URL</div>
             <div class="head">MD5</div>
             <div class="head">Size</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-xfce-x86_64.iso">aryalinux-2.1-xfce-x86_64.iso</a></div>
-            <div class="even">e46da23c878855c37b3a2be9a5037d12</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-xfce-x86_64.iso">aryalinux-2.1-xfce-x86_64.iso</a></div>
+            <div class="even">f70300c6b10a34198ba39c25a8cda6c5</div>
             <div class="even">2.2 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-mate-x86_64.iso">aryalinux-2.1-mate-x86_64.iso</a></div>
-            <div class="odd">6ea0ec096744eae8282ec6598d3db45f</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-mate-x86_64.iso">aryalinux-2.1-mate-x86_64.iso</a></div>
+            <div class="odd">cc195b10b9024cac805f05991cbe048d</div>
             <div class="odd">2.4 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-kde5-x86_64.iso">aryalinux-2.1-kde5-x86_64.iso</a></div>
-            <div class="even">dd24f2ce6c06f053d9e3f1d6f982bf39</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-kde5-x86_64.iso">aryalinux-2.1-kde5-x86_64.iso</a></div>
+            <div class="even">32a4f2d1b9bd3d0e98b581943ee081cd</div>
             <div class="even">2.7 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-gnome-x86_64.iso">aryalinux-2.1-gnome-x86_64.iso</a></div>
-            <div class="odd">8fe931ca187524bf05a8bd99b1ce8011</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/fixed/aryalinux-2.1-gnome-x86_64.iso">aryalinux-2.1-gnome-x86_64.iso</a></div>
+            <div class="odd">f7c52acefeb6ddffc54e1b6093ff02e2</div>
             <div class="odd">2.3 GB</div>
         </div>
         <br>
