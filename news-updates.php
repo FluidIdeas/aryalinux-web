@@ -1,4 +1,5 @@
 <ul>
+<li>January 11, 2020 - Fixed the NameError: global name 'subprocess' is not defined issue with the installer.</li>
 <li>January 09, 2020 - AryaLinux 2.1 Released.</li>
 <li>December 30, 2019 - First KDE Plasma build successful. The latest release would ship with the KDE plasma desktop ISO.</li>
 <li>December 30, 2019 - Starting work on the new website for the new domain.</li>
