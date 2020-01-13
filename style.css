@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,800i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono&display=swap');
 
@@ -213,4 +214,52 @@ li {
 .even {
     background-color: darkgray;
     padding: 10px;
+}
+
+.main-content-container {
+    display: grid;
+    grid-template-columns: 15em auto;
+}
+
+.sidenav {
+    gap: 20px;
+}
+
+.sidenav a {
+    text-decoration: none;
+}
+
+.sidenav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+table.striped {
+    width: 100%;
+}
+
+table.striped tr:nth-child(even) {
+    background-color: #fff;
+}
+
+table.striped tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+table.striped th {
+    background-color: #1b140e;
+    color: #fff;
+}
+
+table.striped th, td {
+    padding: 10px;
+}
+
+table.striped th {
+    text-align: left;
+}
+
+table.striped td {
+    text-align: justify;
 }

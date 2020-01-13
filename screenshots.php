@@ -21,7 +21,10 @@
         </div>
     </div>
     <div class="main-content">
-        <div class="container">
+        <div class="container" style="display: grid; grid-template-columns: 15em auto">
+            <div class="sidenav">
+                <?php include_once('about-links.php')?>
+            </div>
             <div class="screenshot-container" style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
                 <div>
                 <img  class="img-responsive" src="images/1.png">
