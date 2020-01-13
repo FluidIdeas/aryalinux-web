@@ -65,7 +65,7 @@ $articles = array(
             <div>
                 <h3>Issues &amp; Solutions</h3>
                 <ul>
-                    <li><a href="?article=install-on-mulitple-hdd">AryaLinux installation failing on system with multiple hard disks</a></li>
+                    <li><a href="?article=install-on-mulitple-hdd">AryaLinux installation failing with message: NameError: global name 'subprocess' is not defined</a></li>
                 </ul>
             </div>
         </div>
