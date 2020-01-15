@@ -1,0 +1,77 @@
+<a name="top"></a>
+<h3>How to install Java for development in AryaLinux</h3>
+<b>In this article</b>
+<ol>
+<li><a href="#1">Installing Java</a></li>
+<li><a href="#2">Installing maven</a></li>
+<li><a href="#3">Installing Eclipse IDE</a></li>
+<li><a href="#4">Installing MariaDB</a></li>
+</ol>
+<a name="1"></a>
+<h4>Installing Java</h4>
+<p>
+The Java programming language is a widely used programming language used by developers accross
+the world and by Enterprises and Organizations alike. The original Java programming language
+developed by Sun Microsystems is an Oracle property now and hence in order to install Oracle JDK,
+you need to download Oracle JDK from Oracle's website and follow <a target="_blank" href="https://www.javahelps.com/2017/09/install-oracle-jdk-9-on-linux.html">this</a> article to
+install the downloaded binary. <b>Please avoid step 7 and step 8 because they are Ubuntu specific commands.</b>
+You need to accept the Oracle Java's License Agreement before you download Oracle's JDK.
+</p>
+<p>
+An alternative to using Oracle's JDK you can also use openjdk which is developed by the community and
+is compatible with Oracle JDK. There are differences which might cause an impact in production servers
+but for development purposes openjdk should just be fine. Run the following command to run openjdk
+from the terminal.
+</p>
+<pre>
+alps install openjdk
+</pre>
+<p>
+The buildscript for openjdk installs openjdk in /opt and also sets the PATH and JAVA_HOME variables
+so you do not have to worry about them. To make the changes take effect, please restart the system.
+In case you would not be able to restart the system immediately you can run the following command
+from the terminal temporarily for it to recognize openjdk:
+</p>
+<pre>
+source /etc/profile
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="2"></a>
+<h4>Installing maven</h4>
+<p>
+Maven is a build tool that Java developers should be familiar with. It makes the complex process
+of building and packaging Java applications and dependency management very easy. Here is the
+command to install maven:
+</p>
+<pre>
+alps install maven
+</pre>
+<p>
+If while run the mvn command, you get command not found. Run the following command:
+</p>
+<pre>
+source /etc/profile
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="3"></a>
+<h4>Installing Eclipse IDE</h4>
+<p>
+If you are doing Java development, you might need the Eclipse IDE as well. In order to install the
+Eclipse IDE, download it from their website - <a target="_blank" href="https://www.eclipse.org/downloads/">https://www.eclipse.org/downloads/</a>.
+Then open up the <b style="color: #ff0000">Binary Application Installer</b> from the Applications -> Systems menu, click the browse
+button and point to the eclipse Binary just downloaded and click the Install button. Eclipse needs
+Java to run so please install openjdk first.
+</p>
+<div style="text-align: right"><a href="#top">Top</a></div>
+<a name="4"></a>
+<h4>Installing MariaDB</h4>
+<p>
+While doing java development one might need a backend database management system to store data. While
+there are plenty of database management systems that Java can be used with a very popular database
+that is used with Java is MySQL. Once again MySQL is also a property of Oracle but the community built
+mariadb can be used as a drop in replacement for MySQL. Use the following command to install mariadb:
+</p>
+<pre>
+alps install mariadb
+</pre>
+<div style="text-align: right"><a href="#top">Top</a></div>

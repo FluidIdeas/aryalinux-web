@@ -8,7 +8,9 @@ $articles = array(
     "remastering",
     "lampstack",
     "install-on-mulitple-hdd",
-    "chromium"
+    "chromium",
+    "command-not-found-on-sudo",
+    "installing-java-for-development"
 );
 ?>
 <!doctype html>
@@ -60,12 +62,14 @@ $articles = array(
                 <ul>
                     <li><a href="?article=lampstack">How to install lamp stack</a></li>
                     <li><a href="?article=chromium">How to install Chromium browser</a></li>
+                    <li><a href="?article=installing-java-for-development">How to install Java for development in AryaLinux</a></li>
                 </ul>
             </div>
             <div>
                 <h3>Issues &amp; Solutions</h3>
                 <ul>
                     <li><a href="?article=install-on-mulitple-hdd">AryaLinux installation failing with message: NameError: global name 'subprocess' is not defined</a></li>
+                    <li><a href="?article=command-not-found-on-sudo">When running commands on sudo, sometimes it gives error - command not found</a></li>
                 </ul>
             </div>
         </div>
