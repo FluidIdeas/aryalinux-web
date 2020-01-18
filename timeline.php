@@ -135,6 +135,17 @@
                                 Distribution Release - AryaLinux 2.5
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                -
+                            </td>
+                            <td>
+                                To Be Started
+                            </td>
+                            <td>
+                                Release the Deepin Spin.
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
                 <br><br>
