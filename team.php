@@ -30,7 +30,7 @@
                 <i>Developer and Maintainer</i>
                 <p>
                 <img style="border-radius: 50%; display: block; float: left; margin: 0px 20px 20px 0px; width: 120px;" src="images/chandrakant.jpg">
-                Software Architect with 15 years of experience write software in various technologies
+                Software Architect with 15 years of experience writing software in various technologies
                 ranging from Python and Ruby to Spring Boot and Scala. I got introduced into the Open
                 Source world in 2002 and it was love at first sight. Started my Linux journey with
                 Red Hat Linux(much before it became Fedora) and then switched over to Ubuntu in 2006.
