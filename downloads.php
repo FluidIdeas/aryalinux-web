@@ -65,16 +65,16 @@
             <div class="head">MD5</div>
             <div class="head">Size</div>
             <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-gnome-slim-x86_64.iso">aryalinux-2.1-gnome-slim-x86_64.iso</a></div>
-            <div class="even">e2f5c940e720a322d048513791f144b2</div>
+            <div class="even">04c6468fcee7882fc65c742eb80c9962</div>
             <div class="even">1.5 GB</div>
             <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-kde5-slim-x86_64.iso">aryalinux-2.1-kde5-slim-x86_64.iso</a></div>
-            <div class="odd">30788dad2c07652d9c16d4cd87519003</div>
+            <div class="odd">0c61cf28baf9916568b431422761a319</div>
             <div class="odd">1.7 GB</div>
             <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-mate-slim-x86_64.iso">aryalinux-2.1-mate-slim-x86_64.iso</a></div>
-            <div class="even">7a6fca1b6ab5fe95cfa3c636a7ee7d44</div>
+            <div class="even">85bbb03123d96a89bcff2b82076f9567</div>
             <div class="even">1.3 GB</div>
             <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-xfce-slim-x86_64.iso">aryalinux-2.1-xfce-slim-x86_64.iso</a></div>
-            <div class="odd">96040319b08dd0411704c8f2f842ade6</div>
+            <div class="odd">0dee89119443cfc9fed62e149cd1fd5f</div>
             <div class="odd">1.1 GB</div>
             <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-slim-x86_64.iso">aryalinux-2.1-slim-x86_64.iso</a></div>
             <div class="even">9547afd07cfbefc3b4f5417e2b274843</div>
