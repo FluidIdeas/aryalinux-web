@@ -27,7 +27,7 @@
             </div>
             <div>
                 <h2 style="margin-top: 0">Chandrakant</h2>
-                <i>Developer and Maintainer</i>
+                <i>Founder, Developer and Maintainer</i>
                 <p>
                 <img style="border-radius: 50%; display: block; float: left; margin: 0px 20px 20px 0px; width: 120px;" src="images/chandrakant.jpg">
                 Software Architect with 15 years of experience writing software in various technologies
@@ -35,6 +35,14 @@
                 Source world in 2002 and it was love at first sight. Started my Linux journey with
                 Red Hat Linux(much before it became Fedora) and then switched over to Ubuntu in 2006.
                 In 2007, read Linux from Scratch and every since <a target="_blank" href="http://linuxfromscratch.org">LFS</a> and <a target="_blank" href="http://linuxfromscratch.org/blfs">BLFS</a> have been the way of life.
+                </p>
+                <h2 style="margin-top: 0">Rakesh</h2>
+                <i>Co-Founder</i>
+                <p>
+                Rakesh is a self-taught big data and .NET expert with over 15 years of expertise
+                in development and corporate training combined. He uses his technical prowess to
+                build custom distributions for organizations and train professionals on Big Data,
+                Analytics and Machine Learning. When he is free, he works on <a href="https://sourceforge.net/projects/getprathamos/" target="_blank">PrathamOS</a>.
                 </p>
                 <p>
                 <i>Building and Maintaining a distribution is a task that needs massive efforts and despite
