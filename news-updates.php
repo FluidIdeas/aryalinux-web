@@ -1,4 +1,5 @@
 <ul>
+<li>February 8, 2020 - Added build script for google-chrome and removed the chromium-bin script from repository. One can now install the Google Chrome browser on AryaLinux by executing: alps install google-chrome from the terminal.</li>
 <li>January 15, 2020 - Fixed the openjdk script to use the binary available at <a href="https://jdk.java.net/13/" target="_blank">https://jdk.java.net/13/</a> and
 added build script for maven. Added an article on installation of java development environment and sudo error.</li>
 <li>January 11, 2020 - Fixed the NameError: global name 'subprocess' is not defined issue with the installer.</li>

@@ -2,18 +2,24 @@
 <h3>How to install Chromium browser</h3>
 <b>In this article</b>
 <ol>
-<li><a href="#1">Installing Chromium browser on AryaLinux</a></li>
+<li><a href="#1">Installing Google Chrome on AryaLinux</a></li>
 </ol>
 <a name="1"></a>
-<h4>Installing Chromium browser on AryaLinux</h4>
+<h4>Installing Google Chrome on AryaLinux</h4>
 <p>
-Chromium browser is one of the few applications that gets installed in AryaLinux via binaries.
-Chromium as such takes a very long time to build and installing Chromium using binaries saves
-the time. Anyways the package that needs to be installed to install Chromium is chromium-bin.
-Run the following command to install Chromium:
+Google Chrome browser is one of the few applications that gets installed in AryaLinux via binaries.
+The buildscript for google-chrome, downloads the latest debian binary and installs extracts and installs it.
+This can be a hit or a miss because a package not build on AryaLinux may or may not work on AryaLinux so
+this cannot be relied on and its better to use Firefox. Compiling the source code of chromium browser
+(the base for Google Chrome) as such takes a very long time to build and installing Chrome using binaries saves
+the time.
+</p>
+<p>
+The package that needs to be installed to install Chrome is google-chrome.
+Run the following command to install Chrome:
 </p>
 <pre>
 alps updatescripts
-alps install chromium-bin
+alps install google-chrome
 </pre>
 <div style="text-align: right"><a href="#top">Top</a></div>
