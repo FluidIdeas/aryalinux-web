@@ -41,18 +41,18 @@
             <div class="head">URL</div>
             <div class="head">MD5</div>
             <div class="head">Size</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-xfce-x86_64.iso">aryalinux-2.1-xfce-x86_64.iso</a></div>
-            <div class="even">e46da23c878855c37b3a2be9a5037d12</div>
-            <div class="even">2.3 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-mate-x86_64.iso">aryalinux-2.1-mate-x86_64.iso</a></div>
-            <div class="odd">6ea0ec096744eae8282ec6598d3db45f</div>
-            <div class="odd">2.5 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-kde5-x86_64.iso">aryalinux-2.1-kde5-x86_64.iso</a></div>
-            <div class="even">dd24f2ce6c06f053d9e3f1d6f982bf39</div>
-            <div class="even">2.9 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-gnome-x86_64.iso">aryalinux-2.1-gnome-x86_64.iso</a></div>
-            <div class="odd">8fe931ca187524bf05a8bd99b1ce8011</div>
-            <div class="odd">2.4 GB</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-gnome-x86_64.iso">aryalinux-2.4-gnome-x86_64.iso</a></div>
+            <div class="odd">967fdadad3dcab77c36ca49b5c3b1baf</div>
+            <div class="odd">2.6 GB</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-kde-x86_64.iso">aryalinux-2.4-kde-x86_64.iso</a></div>
+            <div class="even">abdeb28be07f91a2c18a548f0c54fdd2</div>
+            <div class="even">3.2 GB</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-mate-x86_64.iso">aryalinux-2.4-mate-x86_64.iso</a></div>
+            <div class="odd">e10e8fcaaf465e2bb88415aae59aac22</div>
+            <div class="odd">2.8 GB</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-xfce-x86_64.iso">aryalinux-2.4-xfce-x86_64.iso</a></div>
+            <div class="even">30577fb147c7109f9fc4be40e534fd7e</div>
+            <div class="even">3.4 GB</div>
         </div>
         <br>
         <h2>Slim ISOs</h2>
@@ -64,21 +64,18 @@
             <div class="head">URL</div>
             <div class="head">MD5</div>
             <div class="head">Size</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-gnome-slim-x86_64.iso">aryalinux-2.1-gnome-slim-x86_64.iso</a></div>
-            <div class="even">04c6468fcee7882fc65c742eb80c9962</div>
-            <div class="even">1.5 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-kde5-slim-x86_64.iso">aryalinux-2.1-kde5-slim-x86_64.iso</a></div>
-            <div class="odd">0c61cf28baf9916568b431422761a319</div>
-            <div class="odd">1.7 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-mate-slim-x86_64.iso">aryalinux-2.1-mate-slim-x86_64.iso</a></div>
-            <div class="even">85bbb03123d96a89bcff2b82076f9567</div>
-            <div class="even">1.3 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-xfce-slim-x86_64.iso">aryalinux-2.1-xfce-slim-x86_64.iso</a></div>
-            <div class="odd">0dee89119443cfc9fed62e149cd1fd5f</div>
-            <div class="odd">1.1 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/min/aryalinux-2.1-slim-x86_64.iso">aryalinux-2.1-slim-x86_64.iso</a></div>
-            <div class="even">9547afd07cfbefc3b4f5417e2b274843</div>
-            <div class="even">422 MB</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-gnome-slim-x86_64.iso">aryalinux-2.4-gnome-slim-x86_64.iso</a></div>
+            <div class="even">0a91e74fd785fc99f2b8a8b1ef9aaec8</div>
+            <div class="even">1.7 GB</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-kde-slim-x86_64.iso">aryalinux-2.4-kde-slim-x86_64.iso</a></div>
+            <div class="odd">a5fe5751aca716d895cf44fc1345d412</div>
+            <div class="odd">2.1 GB</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-mate-slim-x86_64.iso">aryalinux-2.4-mate-slim-x86_64.iso</a></div>
+            <div class="even">79e6ba44e10f5663092918f51b69e67f</div>
+            <div class="even">1.6 GB</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-xfce-slim-x86_64.iso">aryalinux-2.4-xfce-slim-x86_64.iso</a></div>
+            <div class="odd">faa9aaa0978df3235aa02c61363cf3d3</div>
+            <div class="odd">1.5 GB</div>
         </div>
         <br>
         <h2>Development backups</h2>
@@ -90,24 +87,24 @@
             <div class="head">URL</div>
             <div class="head">MD5</div>
             <div class="head">Size</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-base-system-x86_64.tar.gz">AryaLinux 2.1 base system</a></div>
-            <div class="even">ce9e45ecfed02b5ae243db9a994afa0c</div>
-            <div class="even">593 MB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-base-system-with-xserver-x86_64.tar.gz">AryaLinux 2.1 base system with X Server</a></div>
-            <div class="odd">8e5ded58bb2ec030b22136310663165a</div>
-            <div class="odd">945 MB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-base-system-with-xfce-x86_64.tar.gz">AryaLinux 2.1 base system with X Server and XFCE</a></div>
-            <div class="even">fffa77cec2f8acf1a46c10d87be14c93</div>
-            <div class="even">1.5 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-base-system-with-mate-x86_64.tar.gz">AryaLinux 2.1 base system with X Server and Mate</a></div>
-            <div class="odd">45386ba4b71c44650e479119a63e57d6</div>
-            <div class="odd">1.8 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-base-system-with-kde5-x86_64.tar.gz">AryaLinux 2.1 base system with X Server and KDE Plasma</a></div>
-            <div class="even">165d6b9f8124f24542f14c0addcbedca</div>
-            <div class="even">2.1 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-base-system-with-gnome-x86_64.tar.gz">AryaLinux 2.1 base system with X Server and Gnome</a></div>
-            <div class="odd">746a083381144dd12d0fc757aefc7018</div>
-            <div class="odd">2 GB</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/aryalinux-2.4-base-system-x86_64.tar.gz">AryaLinux 2.4 base system</a></div>
+            <div class="even">07e1c773639470c3689672de36309db5</div>
+            <div class="even">1.1 GB</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/aryalinux-2.4-base-system-with-xserver-x86_64.tar.gz">AryaLinux 2.4 base system with X Server</a></div>
+            <div class="odd">e4c3e097239d4214bcf132bfe78a3567</div>
+            <div class="odd">1.5 GB</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-base-system-with-xfce-x86_64.tar.gz">AryaLinux 2.4 base system with X Server and XFCE</a></div>
+            <div class="even">014b1fbb84a116c38407e25782e6cedc</div>
+            <div class="even">2.2 GB</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-base-system-with-mate-x86_64.tar.gz">AryaLinux 2.4 base system with X Server and Mate</a></div>
+            <div class="odd">75aed625a4a66de1ad662cefe613cc69</div>
+            <div class="odd">2.4 GB</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-base-system-with-kde5-x86_64.tar.gz">AryaLinux 2.4 base system with X Server and KDE Plasma</a></div>
+            <div class="even">20ef27b623ec273dd6d5fccbf4e5827e</div>
+            <div class="even">2.9 GB</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-base-system-with-gnome-x86_64.tar.gz">AryaLinux 2.4 base system with X Server and Gnome</a></div>
+            <div class="odd">59fe11c0966575cd5e22397e398e275b</div>
+            <div class="odd">2.5 GB</div>
         </div>
         <br>
         <h2>Older Releases</h2>

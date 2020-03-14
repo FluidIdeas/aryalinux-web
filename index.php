@@ -27,11 +27,11 @@
                     <p> AryaLinux supports the KDE Plasma 5, XFCE, Gnome3 and Mate desktop environments as of now, the default being Gnome3</p>
                 </div>
                 <div class="download-panel">
-                    <div class="heading">AryaLinux 2.1 Released</div>
+                    <div class="heading">AryaLinux 2.4 Released</div>
                     <br>
-                    <a href="https://sourceforge.net/projects/aryalinux/files/releases/2.1/aryalinux-2.1-gnome-x86_64.iso" class="download-btn" target="_blank">Download AryaLinux 2.1 Gnome</a>
+                    <a href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-gnome-x86_64.iso" class="download-btn" target="_blank">Download AryaLinux 2.4 Gnome</a>
                     <br><br>
-                    <a href="release-notes-2.1.php">Release Notes</a>
+                    <a href="release-notes-2.4.php">Release Notes</a>
                     <br><br>
                     <a href="downloads.php">Other Downloads</a>
                 </div>
