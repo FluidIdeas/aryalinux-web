@@ -32,7 +32,7 @@
             If you want a Live ISO with just the desktop environment, see the Slim ISO section below.
         </p>
         <p>
-        <b style="color: red">Please note that password for the aryalinux account in the Live Disk is aryalinux and has super user rights.</b>
+        <b style="color: red">Please note that password for the aryalinux account and root in the Live Disk is aryalinux and has super user rights.</b>
         <!--<br>
         <b style="color: red">The Installer hangs while installing AryaLinux on a system with MSDOS partition table with the message: "NameError: global name 'subprocess' is not defined". Please follow <a href="help.php?article=install-on-mulitple-hdd">this</a>
         article to fix the issue. The issue has been fixed and we are uploading the new files and they would be available shortly.</b>-->
