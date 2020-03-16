@@ -32,6 +32,8 @@
             If you want a Live ISO with just the desktop environment, see the Slim ISO section below.
         </p>
         <p>
+        <b style="color: orange">The Installer Issue with Gnome and KDE ISO has been fixed and the downloads below are for fixed ISOs.</b>
+        <br>
         <b style="color: red">Please note that password for the aryalinux account and root in the Live Disk is aryalinux and has super user rights.</b>
         <!--<br>
         <b style="color: red">The Installer hangs while installing AryaLinux on a system with MSDOS partition table with the message: "NameError: global name 'subprocess' is not defined". Please follow <a href="help.php?article=install-on-mulitple-hdd">this</a>
@@ -41,17 +43,17 @@
             <div class="head">URL</div>
             <div class="head">MD5</div>
             <div class="head">Size</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-gnome-x86_64.iso">aryalinux-2.4-gnome-x86_64.iso</a></div>
-            <div class="odd">967fdadad3dcab77c36ca49b5c3b1baf</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/fixed/aryalinux-gnome-2.4-x86_64.iso">aryalinux-gnome-2.4-x86_64.iso</a></div>
+            <div class="odd">5bd8d90fa4b2f735d21e04d089e7d159</div>
             <div class="odd">2.6 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-kde-x86_64.iso">aryalinux-2.4-kde-x86_64.iso</a></div>
-            <div class="even">abdeb28be07f91a2c18a548f0c54fdd2</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/fixed/aryalinux-kde5-2.4-x86_64.iso">aryalinux-kde5-2.4-x86_64.iso</a></div>
+            <div class="even">1f17f55c22a0551ba0e72c3318b32749</div>
             <div class="even">3.2 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-mate-x86_64.iso">aryalinux-2.4-mate-x86_64.iso</a></div>
-            <div class="odd">e10e8fcaaf465e2bb88415aae59aac22</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/fixed/aryalinux-mate-2.4-x86_64.iso">aryalinux-mate-2.4-x86_64.iso</a></div>
+            <div class="odd">033474254e2a1cbbe589a126845aa556</div>
             <div class="odd">2.8 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/aryalinux-2.4-xfce-x86_64.iso">aryalinux-2.4-xfce-x86_64.iso</a></div>
-            <div class="even">30577fb147c7109f9fc4be40e534fd7e</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/full/fixed/aryalinux-xfce-2.4-x86_64.iso">aryalinux-xfce-2.4-x86_64.iso</a></div>
+            <div class="even">97f6ab950b479b24f90b9db1295dffbf</div>
             <div class="even">3.4 GB</div>
         </div>
         <br>
@@ -64,17 +66,17 @@
             <div class="head">URL</div>
             <div class="head">MD5</div>
             <div class="head">Size</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-gnome-slim-x86_64.iso">aryalinux-2.4-gnome-slim-x86_64.iso</a></div>
-            <div class="even">0a91e74fd785fc99f2b8a8b1ef9aaec8</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/fixed/aryalinux-gnome-slim-2.4-x86_64.iso">aryalinux-gnome-slim-2.4-x86_64.iso</a></div>
+            <div class="even">e8dbf828da8433b3bea25edc98cc476e</div>
             <div class="even">1.7 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-kde-slim-x86_64.iso">aryalinux-2.4-kde-slim-x86_64.iso</a></div>
-            <div class="odd">a5fe5751aca716d895cf44fc1345d412</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/fixed/aryalinux-kde5-slim-2.4-x86_64.iso">aryalinux-kde5-slim-2.4-x86_64.iso</a></div>
+            <div class="odd">9f1ad19f792cc0aa0d4b8ae9c77c345a</div>
             <div class="odd">2.1 GB</div>
-            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-mate-slim-x86_64.iso">aryalinux-2.4-mate-slim-x86_64.iso</a></div>
-            <div class="even">79e6ba44e10f5663092918f51b69e67f</div>
+            <div class="even"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/fixed/aryalinux-mate-slim-2.4-x86_64.iso">aryalinux-mate-slim-2.4-x86_64.iso</a></div>
+            <div class="even">3a75309b37d77c5184968293df377911</div>
             <div class="even">1.6 GB</div>
-            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/aryalinux-2.4-xfce-slim-x86_64.iso">aryalinux-2.4-xfce-slim-x86_64.iso</a></div>
-            <div class="odd">faa9aaa0978df3235aa02c61363cf3d3</div>
+            <div class="odd"><a target="_blank" href="https://sourceforge.net/projects/aryalinux/files/releases/2.4/min/fixed/aryalinux-xfce-slim-2.4-x86_64.iso">aryalinux-xfce-slim-2.4-x86_64.iso</a></div>
+            <div class="odd">838767255460211f56ac5fb7922fb414</div>
             <div class="odd">1.5 GB</div>
         </div>
         <br>

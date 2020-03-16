@@ -1,4 +1,5 @@
 <ul>
+<li>March 16, 2020 - Fixed the installer issue in gnome and KDE ISOs.</li>
 <li>March 14, 2020 - AryaLinux 2.4, development release ready.</li>
 <li>March 14, 2020 - Successfully built the very new gnome-3.36 desktop which was released a few days back.</li>
 <li>February 8, 2020 - Added build script for google-chrome and removed the chromium-bin script from repository. One can now install the Google Chrome browser on AryaLinux by executing: alps install google-chrome from the terminal.</li>
