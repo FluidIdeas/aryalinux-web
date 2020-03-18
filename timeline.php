@@ -37,46 +37,16 @@
                     <tbody>
                         <tr>
                             <td>
-                                January 09, 2020
+                                Jan-31-2020 (Actual : Mar-16-2020)
                             </td>
                             <td>
                                 Done
                             </td>
                             <td>
-                                Complete rewrite of alps
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                January 09, 2020
-                            </td>
-                            <td>
-                                Done
-                            </td>
-                            <td>
-                                Complete rewrite of AryaLinux Installer. Fix issues related to post installation.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                January 09, 2020
-                            </td>
-                            <td>
-                                Done
-                            </td>
-                            <td>
-                                Distribution Release - AryaLinux 2.1. Release XFCE, Mate, KDE and Gnome3 spins.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                January 31, 2020
-                            </td>
-                            <td>
-                                In Progress
-                            </td>
-                            <td>
-                                Release GUI for Alps - alpsui
+                                Release GUI for Alps - alpsui<br>
+                                <span style="color: red; font-size: 0.8em">Several issues were fixed in the existing implementation
+                                including the issue of not being able to stop the install process once it starts from the UI. These
+                                changes took time and hence wasn't able to complete in time.</span>
                             </td>
                         </tr>
                         <tr>
@@ -84,33 +54,36 @@
                                 February 28, 2020
                             </td>
                             <td>
-                                To Be Started
+                                Pending
                             </td>
                             <td>
                                 Development Release - 2.2. Finish working on the overlay method of system upgrade.
-                                Make release of the overlay method for 2.1
+                                Make release of the overlay method for 2.1.<br>
+                                <span style="color: red; font-size: 0.8em">Would be wise
+                                to do this post fixing a proper update method for AryaLinux. This might involve shifting
+                                out of the from source to binary paradigm.</span>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                February 28, 2020
+                                February 28, 2020(Actual : March 16, 2020)
+                            </td>
+                            <td>
+                                Done
+                            </td>
+                            <td>
+                                Development Release - 2.4
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                16 May, 2020
                             </td>
                             <td>
                                 To Be Started
                             </td>
                             <td>
-                                Development Release - 2.2
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                30 April, 2020
-                            </td>
-                            <td>
-                                To Be Started
-                            </td>
-                            <td>
-                                Development Release - 2.3
+                                Development Release - 2.5
                             </td>
                         </tr>
                         <tr>
@@ -144,6 +117,28 @@
                             </td>
                             <td>
                                 Release the Deepin Spin.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                -
+                            </td>
+                            <td>
+                                -
+                            </td>
+                            <td>
+                                Detour from the LFS/BLFS Path.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                -
+                            </td>
+                            <td>
+                                -
+                            </td>
+                            <td>
+                                The Binary experiment
                             </td>
                         </tr>
                     </tbody>
